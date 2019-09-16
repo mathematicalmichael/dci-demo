@@ -1,0 +1,10 @@
+one:
+  a: 1.5
+  b: 4.5
+  loc: 0.0
+  scale: 1.0
+two:
+  a: 4.5
+  b: 1.5
+  loc: 0.0
+  scale: 1.0
