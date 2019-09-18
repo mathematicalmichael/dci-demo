@@ -1,9 +1,19 @@
 1:
-  one:
-    a: 1.0
-    b: 1.0
-    loc: 0.0
-    scale: 1.0
+  vacation:
+    a: 1
+    b: 1
+    loc: 3000
+    scale: 3000
+  investment-fund:
+    a: 1
+    b: 1
+    loc: 10000
+    scale: 40000
+  emergency-fund:
+    a: 1
+    b: 1
+    loc: 2000
+    scale: 8000
 2:
   two:
     a: 2.0
@@ -16,29 +26,74 @@
     loc: 0.0
     scale: 10.0
 4:
-  four:
-    a: 4.5
-    b: 1.5
-    loc: 0.0
-    scale: 1.0
+  travel-family:
+    a: 1
+    b: 1
+    loc: 300
+    scale: 300
 6: {}
 12:
-  insurance-car:
+  rent:
     a: 2.25
     b: 2.25
-    loc: 30.0
-    scale: 30.0
+    loc: 1100
+    scale: 1900
   insurance-health:
-    a: 2.25
-    b: 2.25
-    loc: 30.0
-    scale: 30.0
+    a: 1
+    b: 1
+    loc: 50
+    scale: 100
+  insurance-hsa:
+    a: 1
+    b: 1
+    loc: 100
+    scale: 200
+  util-electric:
+    a: 1
+    b: 1
+    loc: 25
+    scale: 25
+  util-internet:
+    a: 1
+    b: 1
+    loc: 0
+    scale: 75
+  util-phone:
+    a: 1
+    b: 1
+    loc: 40
+    scale: 50
+  car-gas:
+    a: 1
+    b: 1
+    loc: 25
+    scale: 75
+  car-maintenance:
+    a: 1
+    b: 1
+    loc: 25
+    scale: 75
+  membership-gyms:
+    a: 1
+    b: 1
+    loc: 50
+    scale: 250
+  recreation:
+    a: 1
+    b: 1
+    loc: 250
+    scale: 250
 24: {}
 26: {}
 52:
-  laundry:
-    a: 2.25
-    b: 2.25
-    loc: 3.0
-    scale: 3.0
-365: {}
+  util-laundry:
+    a: 1
+    b: 1
+    loc: 5
+    scale: 20
+365:
+  daily-food:
+    a: 1.0
+    b: 1.0
+    loc: 5
+    scale: 20
