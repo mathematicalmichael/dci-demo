@@ -1,10 +1,44 @@
-one:
-  a: 1.5
-  b: 4.5
-  loc: 0.0
-  scale: 1.0
-two:
-  a: 4.5
-  b: 1.5
-  loc: 0.0
-  scale: 1.0
+1:
+  one:
+    a: 1.0
+    b: 1.0
+    loc: 0.0
+    scale: 1.0
+2:
+  two:
+    a: 2.0
+    b: 1.44
+    loc: 0.0
+    scale: 1.0
+  two-one:
+    a: 1.5
+    b: 4.5
+    loc: 0.0
+    scale: 10.0
+4:
+  four:
+    a: 4.5
+    b: 1.5
+    loc: 0.0
+    scale: 1.0
+6: {}
+12:
+  insurance-car:
+    a: 2.25
+    b: 2.25
+    loc: 30.0
+    scale: 30.0
+  insurance-health:
+    a: 2.25
+    b: 2.25
+    loc: 30.0
+    scale: 30.0
+24: {}
+26: {}
+52:
+  laundry:
+    a: 2.25
+    b: 2.25
+    loc: 3.0
+    scale: 3.0
+365: {}
