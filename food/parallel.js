@@ -18,7 +18,6 @@ var m = [60, 0, 10, 0],
     background,
     highlighted,
     dimensions,                           
-    legend,
     render_speed = 50,
     brush_count = 0,
     excluded_groups = [];
@@ -190,8 +189,6 @@ d3.csv("nutrients.csv", function(raw_data) {
         .text("Drag or resize this filter");
 
 
-  legend = create_legend(colors,brush);
-
   // Render full foreground
   brush();
 
@@ -217,47 +214,6 @@ function grayscale(pixels, args) {
   }
   return pixels;
 };
-
-function create_legend(colors,brush) {
-  // create legend
-  var legend_data = d3.select("#legend")
-    .html("")
-    .selectAll(".row")
-    .data( _.keys(colors).sort() )
-
-  // filter by group
-  var legend = legend_data
-    .enter().append("div")
-      .attr("title", "Hide group")
-      .on("click", function(d) { 
-        // toggle food group
-        if (_.contains(excluded_groups, d)) {
-          d3.select(this).attr("title", "Hide group")
-          excluded_groups = _.difference(excluded_groups,[d]);
-          brush();
-        } else {
-          d3.select(this).attr("title", "Show group")
-          excluded_groups.push(d);
-          brush();
-        }
-      });
-
-  legend
-    .append("span")
-    .style("background", function(d,i) { return color(d,0.85)})
-    .attr("class", "color-bar");
-
-  legend
-    .append("span")
-    .attr("class", "tally")
-    .text(function(d,i) { return 0});  
-
-  legend
-    .append("span")
-    .text(function(d,i) { return " " + d});  
-
-  return legend;
-}
  
 // render polylines i to i+render_speed 
 function render_range(selection, i, max, opacity) {
@@ -453,12 +409,6 @@ function brush() {
       }) ? selected.push(d) : null;
     });
 
-  // free text search
-  var query = d3.select("#search")[0][0].value;
-  if (query.length > 0) {
-    selected = search(selected, query);
-  }
-
   if (selected.length < data.length && selected.length > 0) {
     d3.select("#keep-data").attr("disabled", null);
     d3.select("#exclude-data").attr("disabled", null);
@@ -473,22 +423,6 @@ function brush() {
 
   // include empty groups
   _(colors).each(function(v,k) { tallies[k] = tallies[k] || []; });
-
-  legend
-    .style("text-decoration", function(d) { return _.contains(excluded_groups,d) ? "line-through" : null; })
-    .attr("class", function(d) {
-      return (tallies[d].length > 0)
-           ? "row"
-           : "row off";
-    });
-
-  legend.selectAll(".color-bar")
-    .style("width", function(d) {
-      return Math.ceil(600*tallies[d].length/data.length) + "px"
-    });
-
-  legend.selectAll(".tally")
-    .text(function(d,i) { return tallies[d].length });  
 
   // Render selected lines
   paths(selected, foreground, brush_count, true);
@@ -607,12 +541,6 @@ function actives() {
     }) ? selected.push(d) : null;
   });
 
-  // free text search
-  var query = d3.select("#search")[0][0].value;
-  if (query > 0) {
-    selected = search(selected, query);
-  }
-
   return selected;
 }
 
@@ -703,7 +631,6 @@ function remove_axis(d,g) {
 d3.select("#keep-data").on("click", keep_data);
 d3.select("#exclude-data").on("click", exclude_data);
 d3.select("#export-data").on("click", export_csv);
-d3.select("#search").on("keyup", brush);
 
 
 // Appearance toggles
@@ -738,9 +665,4 @@ function light_theme() {
   d3.select("body").attr("class", null);
   d3.selectAll("#light-theme").attr("disabled", "disabled");
   d3.selectAll("#dark-theme").attr("disabled", null);
-}
-
-function search(selection,str) {
-  pattern = new RegExp(str,"i")
-  return _(selection).filter(function(d) { return pattern.exec(d.name); });
 }
