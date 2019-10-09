@@ -165,8 +165,8 @@ d3.csv("nutrients.csv", function(raw_data) {
       .attr("transform", "translate(0,0)")
       .each(function(d) { d3.select(this).call(axis.scale(yscale[d])); })
     .append("svg:text")
-      .attr("text-anchor", "middle")
-      .attr("y", function(d,i) { return i%2 == 0 ? -14 : -30 } )
+      .attr("transform", "rotate(-45)")
+      .attr("y", -10 )
       .attr("x", 0)
       .attr("class", "label")
       .text(String)
@@ -483,7 +483,8 @@ function update_ticks(d, extent) {
   d3.selectAll(".axis")
     .each(function(d,i) {
       // hide lines for better performance
-      d3.select(this).selectAll('line').style("display", "none");
+      d3.select(this).selectAll('line')
+        .style("display", "none");
 
       // transition axis numbers
       d3.select(this)
@@ -592,7 +593,9 @@ window.onresize = function() {
   // update axis placement
   axis = axis.ticks(1+height/50),
   d3.selectAll(".axis")
-    .each(function(d) { d3.select(this).call(axis.scale(yscale[d])); });
+    .each(function(d) { 
+      d3.select(this).call(axis.scale(yscale[d]));
+    });
 
   // render data
   brush();
