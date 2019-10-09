@@ -122,13 +122,6 @@ d3.csv("nutrients.csv", function(raw_data) {
           g.attr("transform", function(d) { return "translate(" + position(d) + ")"; });
           brush_count++;
           this.__dragged__ = true;
-
-          // Feedback for axis deletion if dropped
-          if (dragging[d] < 12 || dragging[d] > w-12) {
-            d3.select(this).select(".background").style("fill", "#b00");
-          } else {
-            d3.select(this).select(".background").style("fill", null);
-          }
         })
         .on("dragend", function(d) {
           if (!this.__dragged__) {
@@ -140,11 +133,6 @@ d3.csv("nutrients.csv", function(raw_data) {
             d3.select(this).transition().attr("transform", "translate(" + xscale(d) + ")");
 
             var extent = yscale[d].brush.extent();
-          }
-
-          // remove axis if dragged all the way left
-          if (dragging[d] < 12 || dragging[d] > w-12) {
-            remove_axis(d,g);
           }
 
           // TODO required to avoid a bug
@@ -603,14 +591,6 @@ function exclude_data() {
   }
   data = new_data;
   rescale();
-}
-
-function remove_axis(d,g) {
-  dimensions = _.difference(dimensions, [d]);
-  xscale.domain(dimensions);
-  g.attr("transform", p => `translate(${position(p)})`);
-  g.filter(p => p === d).remove(); 
-  update_ticks();
 }
 
 d3.select("#keep-data").on("click", keep_data);
