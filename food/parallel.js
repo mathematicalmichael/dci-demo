@@ -608,8 +608,8 @@ function exclude_data() {
 function remove_axis(d,g) {
   dimensions = _.difference(dimensions, [d]);
   xscale.domain(dimensions);
-  g.attr("transform", function(p) { return "translate(" + position(p) + ")"; });
-  g.filter(function(p) { return p == d; }).remove(); 
+  g.attr("transform", p => `translate(${position(p)})`);
+  g.filter(p => p === d).remove(); 
   update_ticks();
 }
 
