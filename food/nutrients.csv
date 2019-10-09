@@ -1,4 +1,4 @@
-"name","group","protein (g)","calcium (g)","sodium (g)","fiber (g)","vitaminc (g)","potassium (g)","carbohydrate (g)","sugars (g)","fat (g)","water (g)","calories","saturated (g)","monounsat (g)","polyunsat (g)","id"
+"name","group","Food","TEST","Fitness","Vacation","vitaminc","potassium","carbohydrate","sugars","fat","water","calories","saturated","monounsat","polyunsat","id"
 "Beverage, instant breakfast powder, chocolate, not reconstituted","Dairy and Egg Products",19.9,0.285,0.385,0.4,0.07690000000000001,0.947,66.2,65.8,1.4,7.4,357,0.56,0.314,0.278,27481
 "Beverage, instant breakfast powder, chocolate, sugar-free, not reconstituted","Dairy and Egg Products",35.8,0.5,0.717,2,0.138,1.705,41,39,5.1,7.4,358,2.162,1.189,1.027,27482
 "Beverage, milkshake mix, dry, not chocolate","Dairy and Egg Products",23.5,0.88,0.78,1.6,0.0012,2.2,52.9,51.3,2.6,12.8,329,2.059,0.332,0.06,27483
