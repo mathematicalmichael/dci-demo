@@ -299,333 +299,333 @@
 "Vinegar, cider","Spices and Herbs",,0.007,0.005,,0,0.073,0.93,0.4,,93.81,21,,,,27778
 "Vinegar, distilled","Spices and Herbs",,0.006,0.002,,0,0.002,0.04,0.04,,94.78,18,,,,27779
 "Vinegar, red wine","Spices and Herbs",0.04,0.006,0.008,,0.0005,0.039,0.27,,,94.47,19,,,,27780
-"Baby food, fortified cereal bar, fruit filling","Baby Foods",5.43,1.053,0.25,1.7,0.0024,0.18,68.63,42,5.3,14,344,0.453,3.107,1.541,27781
-"Babyfood, apple yogurt dessert, strained","Baby Foods",0.8,0.006,0.02,0.5,0.0351,0.07,19.5,12.02,1.6,77.9,96,1.034,0.438,0.044,27782
-"Babyfood, apple-banana juice","Baby Foods",0.2,0.007,0.004,0.2,0.027899999999999998,0.123,12.3,11,0.1,87.1,51,0.018,0.004,0.034,27783
-"Babyfood, apple-cranberry juice","Baby Foods",,0.006,0.005,,0.027899999999999998,0.097,11.49,6.88,0.02,88.3,46,0.007,,0.012,27784
-"Babyfood, apples with ham, strained","Baby Foods",2.6,0.004,0.009,1.8,0.0001,0.12,10.9,7.98,0.9,85.3,62,0.25,0.36,0.111,27785
-"Babyfood, apples, dices, toddler","Baby Foods",0.2,0.01,0.006,0.9,0.0313,0.05,12.1,10.83,0.1,87.5,51,0.02,0.004,0.03,27786
-"Babyfood, baked product, finger snacks cereal","Baby Foods",6.4,0.4,0.324,2.3,0.01,0.114,76.68,28,9.9,3.7,421,1.646,3.13,3.638,27787
-"Babyfood, banana apple dessert, strained","Baby Foods",0.3,0.003,0.007,1,0.0123,0.071,16.3,14.66,0.2,83.1,68,0.058,0.018,0.047,27788
-"Babyfood, banana juice with low fat yogurt","Baby Foods",2.5,0.079,0.037,0.4,0.0339,0.16,17.54,13.28,0.8,78.5,89,0.517,0.219,0.022,27789
-"Babyfood, banana no tapioca, strained","Baby Foods",1,0.004,0.002,1.6,0.0219,0.29,21.34,11.36,0.2,76.7,91,0.072,0.028,0.041,27790
-"Babyfood, carrots and beef, strained","Baby Foods",3.4,0.022,0.069,2.6,0.0008,0.226,5.7,2.04,2.5,87.3,59,0.96,1.06,0.13,27791
-"Babyfood, carrots, toddler","Baby Foods",0.6,0.019,0.048,2.3,0.0007,0.129,5.23,2.5,0.3,93.5,26,0.052,0.012,0.148,27792
-"Babyfood, cereal, barley, dry","Baby Foods",11.1,0.795,0.012,8.2,0.0022,0.395,75.3,3.1,3.4,6.8,365,0.418,0.666,1.759,27793
-"Babyfood, cereal, barley, prepared with whole milk","Baby Foods",3.73,0.162,0.043,0.6,0.0002,0.151,9.94,5.1,3.26,82.19,84,1.76,0.802,0.309,27794
-"Babyfood, cereal, brown rice, dry, instant","Baby Foods",8.7,0.055,0.009,6.5,0,0.386,85.65,0.92,3,1,404,0.6,1.08,1.07,27795
-"Babyfood, cereal, egg yolks and bacon, junior","Baby Foods",2.5,0.028,0.048,0.9,0.0009,0.035,6.2,,5,85.9,79,1.64,2.207,0.641,27796
-"Babyfood, cereal, high protein, prepared with whole milk","Baby Foods",8.7,0.218,0.049,,0,0.349,11.6,,3.8,74.5,111,,,,27797
-"Babyfood, cereal, high protein, with apple and orange, dry","Baby Foods",25.4,0.751,0.104,7.1,0.0031,1.33,57.6,,6.5,5.3,374,0.96,1.231,3.429,27798
-"Babyfood, cereal, high protein, with apple and orange, prepared with whole milk","Baby Foods",6.9,0.223,0.058,,0,0.346,13.4,,3.9,74.4,112,,,,27799
-"Babyfood, cereal, mixed, dry","Baby Foods",12.2,0.733,0.003,7.5,0.0023,0.437,73.4,0.87,4.4,6.7,379,0.769,1.206,1.697,27800
-"Babyfood, cereal, mixed, prepared with whole milk","Baby Foods",4.14,0.22,0.042,0.8,0.0003,0.166,12.3,4.78,3.38,79.21,96,1.745,0.855,0.359,27801
-"Babyfood, cereal, mixed, with applesauce and bananas, junior","Baby Foods",1.2,0.004,0.003,1.2,0.0091,0.032,18.4,7.79,0.4,79.6,83,0.072,0.108,0.152,27802
-"Babyfood, cereal, mixed, with applesauce and bananas, strained","Baby Foods",1.2,0.006,0.003,1.2,0.0255,0.041,18,7.79,0.5,80,82,0.09,0.135,0.191,27803
-"Babyfood, cereal, mixed, with bananas, dry","Baby Foods",10.7,0.696,0,7.8,0.0036,0.668,77.1,6.68,4.6,4.5,391,0.846,1.223,1.734,27804
-"Babyfood, cereal, mixed, with bananas, prepared with whole milk","Baby Foods",3.82,0.153,0.048,0.4,0.0004,0.178,10,5.9,3.46,81.81,86,1.808,0.859,0.342,27805
-"Babyfood, cereal, mixed, with honey, prepared with whole milk","Baby Foods",5,0.294,0.048,,0,0.171,15.9,,3.6,74.2,115,,,,27806
-"Babyfood, cereal, oatmeal, dry","Baby Foods",13.07,0.707,0.004,9,0,0.42,69.65,3.84,8,5.9,399,1.37,2.57,2.47,27807
-"Babyfood, cereal, oatmeal, prepared with whole milk","Baby Foods",5,0.22,0.046,1.1,0.0013,0.204,15.3,,4.1,74.5,116,2.258,,,27808
-"Babyfood, cereal, oatmeal, with applesauce and bananas, junior","Baby Foods",1.3,0.006,0.003,0.8,0.0245,0.048,15.7,9.48,0.7,81.8,75,0.126,0.216,0.253,27809
-"Babyfood, cereal, oatmeal, with applesauce and bananas, strained","Baby Foods",1.3,0.009,0.003,0.8,0.0218,0.047,15.4,10.49,0.7,82.2,74,0.125,0.216,0.253,27810
-"Babyfood, cereal, oatmeal, with bananas, dry","Baby Foods",12,0.651,0.006,5.2,0.0047,0.731,73.4,13.75,6,4.7,393,1.267,1.429,2.186,27811
-"Babyfood, cereal, oatmeal, with bananas, prepared with whole milk","Baby Foods",3.82,0.153,0.048,0.4,0.0004,0.178,10,5.9,3.46,81.81,86,1.82,0.859,0.345,27812
-"Babyfood, cereal, oatmeal, with honey, dry","Baby Foods",13.5,1.154,0.047,,0,0.259,69.3,,7,5.8,391,,,,27813
-"Babyfood, cereal, oatmeal, with honey, prepared with whole milk","Baby Foods",5,0.289,0.049,,0,0.17,15.3,,3.9,74.5,115,,,,27814
-"Babyfood, cereal, rice, dry","Baby Foods",7.1,0.85,0.006,0.5,0.0024,0.385,77.7,0.12,4.9,6.7,391,0.919,1.26,2.016,27815
-"Babyfood, cereal, rice, prepared with whole milk","Baby Foods",3.45,0.168,0.042,,0.0002,0.151,10.31,4.87,3.38,81.96,85,1.793,0.846,0.333,27816
-"Babyfood, cereal, rice, with applesauce and bananas, strained","Baby Foods",1.2,0.017,0.004,1,0.0316,0.028,17.1,2.24,0.4,81,80,0.114,0.104,0.102,27817
-"Babyfood, cereal, rice, with bananas, dry","Baby Foods",8.7,0.691,0,1,0.002,0.769,79.9,16.7,4.2,4.7,404,0.978,0.986,1.503,27818
-"Babyfood, cereal, rice, with bananas, prepared with whole milk","Baby Foods",3.57,0.156,0.047,0.1,0.0002,0.18,10.49,6.13,3.32,81.81,86,1.798,0.826,0.294,27819
-"Babyfood, cereal, rice, with honey, prepared with whole milk","Baby Foods",3.9,0.291,0.049,,0,0.141,17.1,,3.3,74.4,115,,,,27820
-"Babyfood, cereal, rice, with mixed fruit, junior","Baby Foods",0.9,0.016,0.01,0.6,0.009300000000000001,0.05,18.3,10.5,0.2,80.4,82,0.06,0.04,0.05,27821
-"Babyfood, cereal, whole wheat, with apples, dry","Baby Foods",12.6,0.6,0.025,12.2,0.0583,0.516,77.1,22.2,4.8,1.7,402,0.639,1.277,1.866,27822
-"Babyfood, cereal, with egg yolks, junior","Baby Foods",1.9,0.024,0.033,0.9,0.0007,0.035,7.1,,1.8,88.7,52,0.61,0.79,0.3,27823
-"Babyfood, cereal, with egg yolks, strained","Baby Foods",1.9,0.024,0.033,0.9,0.0007,0.039,7,,1.8,88.8,51,0.61,0.79,0.3,27824
-"Babyfood, cereal, with eggs, strained","Baby Foods",2.2,0.027,0.038,,0.0008,0.044,8,,1.5,87.2,58,0.49,0.61,0.33,27825
-"Babyfood, cherry cobbler, junior","Baby Foods",0.3,0.005,0,0.2,0.009300000000000001,0.045,19.2,10.39,0.1,79.8,78,0.02,0.02,0.03,27826
-"Babyfood, cookie, baby, fruit","Baby Foods",6.8,0.083,0.009,3.4,0.0015,0.425,73.7,24.2,12.6,5.7,435,2.7,4.865,4.334,27827
-"Babyfood, cookies","Baby Foods",11.8,0.101,0.357,0.2,0.007,0.501,67.1,24.2,13.2,5.9,433,2.352,5.99,2.878,27828
-"Babyfood, cookies, arrowroot","Baby Foods",7.6,0.032,0.319,0.2,0.0055,0.156,71.1,,14.3,5.6,442,1.048,7.922,0.591,27829
-"Babyfood, corn and sweet potatoes, strained","Baby Foods",1.26,0.018,0.014,1.8,0.005,0.154,15.23,4,0.28,82.62,68,0.053,0.071,0.123,27830
-"Babyfood, crackers, vegetable","Baby Foods",8.4,0.041,0.571,4,0.0505,0.245,66.85,13,19.6,2,477,1.966,15.779,1.022,27831
-"Babyfood, dessert, banana pudding, strained","Baby Foods",1,0.011,0.054,0.8,0.012,0.09,14.14,10.55,0.8,83.5,68,0.264,0.277,0.111,27832
-"Babyfood, dessert, banana yogurt, strained","Baby Foods",1.1,0.03,0.014,0.5,0.013900000000000001,0.1,17.4,3.95,0.52,80.7,79,0.37,0.12,0.03,27833
-"Babyfood, dessert, blueberry yogurt, strained","Baby Foods",0.5,0.025,0.014,0.4,0.0124,0.062,17.05,13.62,0.7,81.4,77,0.452,0.192,0.019,27834
-"Babyfood, dessert, cherry vanilla pudding, junior","Baby Foods",0.2,0.005,0,0.3,0.0011,0.033,18.4,16.98,0.2,81,69,0.058,0.07,0.036,27835
-"Babyfood, dessert, cherry vanilla pudding, strained","Baby Foods",0.2,0.005,0,0.3,0.0011,0.034,17.8,9.15,0.3,81.5,68,0.087,0.105,0.053,27836
-"Babyfood, dessert, custard pudding, vanilla, junior","Baby Foods",1.76,0.054,0.026,0.2,0.0004,0.068,17.58,12.2,0.98,79.31,86,0.325,0.364,0.128,27837
-"Babyfood, dessert, custard pudding, vanilla, strained","Baby Foods",1.6,0.055,0,,0.0008,0.066,16,11.5,2,79.9,85,1.01,0.68,0.16,27838
-"Babyfood, dessert, dutch apple, junior","Baby Foods",0.2,0.003,0.003,1.4,0.018,0.067,19.29,17.89,0.16,80.32,79,0.025,0.006,0.045,27839
-"Babyfood, dessert, dutch apple, strained","Baby Foods",0.2,0.005,0,1.4,0.0214,0.033,19.74,17.89,0.4,79.5,75,0.19,0.08,0.01,27840
-"Babyfood, dessert, fruit dessert, without ascorbic acid, junior","Baby Foods",0.3,0.009,0,0.6,0.003,0.095,17.2,12,,82.2,63,,,,27841
-"Babyfood, dessert, fruit dessert, without ascorbic acid, strained","Baby Foods",0.3,0.009,0,0.6,0.0025,0.094,16,12.6,,83.4,59,,,,27842
-"Babyfood, dessert, fruit pudding, orange, strained","Baby Foods",1.1,0.032,0.02,0.6,0.0091,0.086,17.7,,0.9,79.8,80,0.545,0.257,0.038,27843
-"Babyfood, dessert, fruit pudding, pineapple, strained","Baby Foods",1.3,0.031,0,0.7,0.0272,0.081,20.3,10.28,0.3,77.6,81,0.099,0.109,0.041,27844
-"Babyfood, dessert, peach cobbler, junior","Baby Foods",0.3,0.004,0,0.7,0.0205,0.056,18.3,11.89,,81.2,67,,,,27845
-"Babyfood, dessert, peach cobbler, strained","Baby Foods",0.3,0.004,0.007,0.7,0.0205,0.054,17.8,10.62,,81.8,65,,,,27846
-"Babyfood, dessert, peach yogurt","Baby Foods",0.9,0.027,0.014,0.4,0.011699999999999999,0.102,17.6,6.63,0.18,80.87,76,0.117,0.048,0.005,27847
-"Babyfood, dessert, tropical fruit, junior","Baby Foods",0.2,0.01,0.007,,0.0188,0.058,16.4,,,83.2,60,,,,27848
-"Babyfood, dinner, apples and chicken, strained","Baby Foods",2.16,0.018,0.012,1.8,0.0002,0.095,10.87,7.9,1.38,85.4,65,0.347,0.411,0.35,27849
-"Babyfood, dinner, beef and rice, toddler","Baby Foods",5,0.011,0.032,,0.0039,0.12,8.8,,2.9,81.9,82,,,,27850
-"Babyfood, dinner, beef lasagna, toddler","Baby Foods",4.2,0.018,0.041,,0.0019,0.122,10,,2.1,82.3,77,,,,27851
-"Babyfood, dinner, beef noodle, junior","Baby Foods",2.5,0.008,0.026,1.1,0.0014,0.046,7.3,1.45,1.9,87.8,57,0.766,0.838,0.094,27852
-"Babyfood, dinner, beef noodle, strained","Baby Foods",2.44,0.01,0.015,1.3,0.0001,0.087,8.18,1.42,2.26,86.84,63,0.937,0.941,0.141,27853
-"Babyfood, dinner, beef stew, toddler","Baby Foods",5.1,0.009,0.106,1.1,0.003,0.142,5.5,1.39,1.2,86.9,51,0.58,0.44,0.1,27854
-"Babyfood, dinner, beef with vegetables","Baby Foods",2.03,0.019,0.038,1.8,0,0.127,6.36,2.16,6.93,84.3,96,2.84,3.12,0.9,27855
-"Babyfood, dinner, broccoli and chicken, junior","Baby Foods",3.59,0.037,0.017,1.4,0.0177,0.17,6.34,1.43,2.48,86.92,62,0.51,0.77,0.43,27856
-"Babyfood, dinner, chicken and noodle with vegetables, toddler","Baby Foods",3.8,0.011,0.235,0.6,0.0017,0.095,8.89,0.82,1.7,85.3,66,0.461,0.632,0.392,27857
-"Babyfood, dinner, chicken and rice","Baby Foods",1.6,0.018,0.025,1.1,0.001,0.06,9.2,0.55,0.9,88,51,0.211,0.392,0.188,27858
-"Babyfood, dinner, chicken noodle, junior","Baby Foods",2.37,0.021,0.035,0.9,0.0001,0.039,8.79,1.07,1.18,87.25,55,0.338,0.467,0.272,27859
-"Babyfood, dinner, chicken noodle, strained","Baby Foods",2.69,0.027,0.038,2.1,0.0001,0.139,9.08,2.5,2.06,85.64,66,0.595,0.854,0.461,27860
-"Babyfood, dinner, chicken soup, strained","Baby Foods",1.6,0.037,0.016,1.1,0.001,0.066,7.2,1.72,1.7,89.1,50,0.278,0.425,0.9,27861
-"Babyfood, dinner, chicken stew, toddler","Baby Foods",5.2,0.036,0.025,0.6,0.0019,0.092,6.4,1.68,3.7,83.3,78,1.1,1.7,0.77,27862
-"Babyfood, dinner, macaroni and cheese, junior","Baby Foods",2.6,0.051,0.266,0.3,0.0013,0.044,8.2,1.32,2,86.5,61,1.175,0.534,0.132,27863
-"Babyfood, dinner, macaroni and cheese, strained","Baby Foods",3.14,0.066,0.119,0.7,0.0001,0.067,8.95,1.27,2.11,85.25,67,1.291,0.581,0.103,27864
-"Babyfood, dinner, macaroni and tomato and beef, junior","Baby Foods",2.5,0.014,0.035,1.1,0.0015,0.072,9.4,2.43,1.1,86.7,59,0.411,0.447,0.079,27865
-"Babyfood, dinner, macaroni and tomato and beef, strained","Baby Foods",2.36,0.017,0.038,1.2,0.0003,0.112,9.45,2.09,1.47,86.34,61,0.486,0.594,0.193,27866
-"Babyfood, dinner, macaroni, beef and tomato sauce, toddler","Baby Foods",4.34,0.012,0.035,1.1,0.0019,0.148,11.53,0.37,1.9,81.81,81,0.705,0.782,0.14,27867
-"Babyfood, dinner, mixed vegetable, junior","Baby Foods",1,0.017,0.038,,0.0033,0.112,8,,,90.6,33,,,,27868
-"Babyfood, dinner, mixed vegetable, strained","Baby Foods",1.2,0.022,0.038,,0.0028,0.121,9.5,,0.1,88.7,41,,,,27869
-"Babyfood, dinner, pasta with vegetables","Baby Foods",1.7,0.014,0.011,1.5,0.0029,0.133,8.4,1.2,2.1,87.3,60,1.23,0.58,0.144,27870
-"Babyfood, dinner, potatoes with cheese and ham, toddler","Baby Foods",3.5,0.053,0.205,1.2,0.0001,0.143,11.97,0.8,2,81.5,78,1.1,0.733,0.163,27871
-"Babyfood, dinner, spaghetti and tomato and meat, junior","Baby Foods",2.57,0.015,0.03,1.1,0.0002,0.122,11.42,2.72,1.37,84.17,68,0.543,0.497,0.185,27872
-"Babyfood, dinner, spaghetti and tomato and meat, toddler","Baby Foods",5.3,0.022,0.239,,0.0040999999999999995,0.163,10.8,,1,81.6,75,,,,27873
-"Babyfood, dinner, sweet potatoes and chicken, strained","Baby Foods",2.51,0.03,0.022,1.3,0,0.2,11.04,5.37,2.17,83.7,74,0.572,0.98,0.48,27874
-"Babyfood, dinner, turkey and rice, junior","Baby Foods",2.37,0.024,0.023,1,0.0003,0.086,9.57,1.25,0.92,86.64,56,0.239,0.304,0.233,27875
-"Babyfood, dinner, turkey and rice, strained","Baby Foods",2.27,0.018,0.019,0.9,0.0002,0.091,7.94,1.66,1.24,88.22,52,0.338,0.446,0.308,27876
-"Babyfood, dinner, turkey, rice, and vegetables, toddler","Baby Foods",3.8,0.011,0.276,0.8,0.0003,0.107,7.5,0.66,1.6,86.3,60,0.5,0.555,0.309,27877
-"Babyfood, dinner, vegetables and bacon, strained","Baby Foods",1.92,0.014,0.049,1.7,0.0003,0.116,8.81,1.77,2.95,85.75,69,1.063,1.347,0.377,27878
-"Babyfood, dinner, vegetables and beef, junior","Baby Foods",2.21,0.017,0.031,1.3,0.0002,0.145,8.84,2.34,3.6,84.94,77,1.367,1.289,0.298,27879
-"Babyfood, dinner, vegetables and beef, strained","Baby Foods",2.21,0.017,0.031,1.3,0.0002,0.145,8.84,2.34,3.6,84.94,77,0.87,0.82,0.19,27880
-"Babyfood, dinner, vegetables and chicken, junior","Baby Foods",2.04,0.027,0.034,1.1,0.0002,0.083,8.66,1.46,1.12,87.76,53,0.302,0.402,0.269,27881
-"Babyfood, dinner, vegetables and dumplings and beef, junior","Baby Foods",2.1,0.014,0.052,,0.0008,0.047,8,,0.8,88.6,48,,,,27882
-"Babyfood, dinner, vegetables and dumplings and beef, strained","Baby Foods",2,0.014,0.049,,0.0008,0.046,7.7,,0.9,88.9,48,,,,27883
-"Babyfood, dinner, vegetables and ham, junior","Baby Foods",2.02,0.014,0.045,1,0.0011,0.097,8.64,0.99,1.89,87,60,0.483,0.811,0.448,27884
-"Babyfood, dinner, vegetables and ham, strained","Baby Foods",2.19,0.016,0.016,1.6,0.0016,0.141,7.8,1.37,2.14,87.47,59,0.764,0.963,0.234,27885
-"Babyfood, dinner, vegetables and lamb, junior","Baby Foods",2.1,0.013,0.013,1.1,0.0017,0.095,7.1,0.94,1.7,88.6,51,0.696,0.69,0.154,27886
-"Babyfood, dinner, vegetables and lamb, strained","Baby Foods",2,0.012,0.02,1.1,0.0012,0.094,6.9,0.94,2,88.6,52,0.828,0.822,0.167,27887
-"Babyfood, dinner, vegetables and noodles and turkey, junior","Baby Foods",1.8,0.032,0.017,1.1,0.0008,0.073,7.6,,1.5,88.7,52,,,,27888
-"Babyfood, dinner, vegetables and noodles and turkey, strained","Baby Foods",1.2,0.032,0.021,1.1,0.0008,0.063,6.8,,1.2,90.3,44,,,,27889
-"Babyfood, dinner, vegetables and turkey, junior","Baby Foods",1.72,0.016,0.045,0.9,0.0004,0.098,7.55,1.36,1.74,88.5,53,0.485,0.687,0.391,27890
-"Babyfood, dinner, vegetables and turkey, strained","Baby Foods",2.32,0.027,0.02,1.5,0.0007,0.102,7.62,1.54,0.9,88.82,48,0.236,0.294,0.241,27891
-"Babyfood, dinner, vegetables and turkey, toddler","Baby Foods",4.8,0.046,0.041,,0.0034,0.166,8.1,,3.4,82.3,80,,,,27892
-"Babyfood, dinner, vegetables chicken, strained","Baby Foods",2.47,0.027,0.024,2.1,0.0001,0.158,8.42,1.58,1.73,86.9,59,0.496,0.712,0.374,27893
-"Babyfood, dinner, vegetables, noodles and chicken, junior","Baby Foods",1.7,0.026,0.026,1.1,0.0008,0.059,9.1,,2.2,86.2,64,,,,27894
-"Babyfood, dinner, vegetables, noodles and chicken, strained","Baby Foods",2,0.028,0.02,1.1,0.0007,0.055,7.9,,2.5,87.2,63,,,,27895
-"Babyfood, fruit and vegetable, apple and sweet potato","Baby Foods",0.3,0.008,0.003,1.4,0.0064,0.149,15.3,11.6,0.22,84,64,0.041,0.008,0.079,27896
-"Babyfood, fruit dessert, mango with tapioca","Baby Foods",0.3,0.008,0.004,1.1,0.0158,0.066,19,13,0.2,80,70,0.039,0.06,0.03,27897
-"Babyfood, fruit supreme dessert","Baby Foods",0.5,0.006,0.001,2,0.0127,0.129,17.18,14.87,0.2,81.6,73,0.03,0.025,0.068,27898
-"Babyfood, fruit, apple and blueberry, junior","Baby Foods",0.2,0.005,0.001,1.8,0.013900000000000001,0.065,16.6,8.83,0.2,82.8,62,0.024,0.019,0.073,27899
-"Babyfood, fruit, apple and blueberry, strained","Baby Foods",0.2,0.004,0.001,1.8,0.027800000000000002,0.069,16.3,13.93,0.2,83.1,61,0.024,0.019,0.073,27900
-"Babyfood, fruit, apple and raspberry, junior","Baby Foods",0.2,0.005,0,2.1,0.0289,0.072,15.4,12.96,0.2,84,58,0.032,0.008,0.063,27901
-"Babyfood, fruit, apple and raspberry, strained","Baby Foods",0.2,0.005,0,2.1,0.0268,0.08,15.6,12.96,0.2,83.8,58,0.033,0.008,0.062,27902
-"Babyfood, fruit, applesauce and apricots, junior","Baby Foods",0.2,0.006,0,1.8,0.0179,0.109,12.4,8.72,0.2,86.9,47,0.028,0.03,0.051,27903
-"Babyfood, fruit, applesauce and apricots, strained","Baby Foods",0.2,0.006,0,1.8,0.0189,0.12,11.64,9.25,0.2,87.7,44,0.024,0.037,0.045,27904
-"Babyfood, fruit, applesauce and cherries, junior","Baby Foods",,0.001,0.001,1.1,0.0428,0.132,14.1,10.61,,85.6,51,,,,27905
-"Babyfood, fruit, applesauce and cherries, strained","Baby Foods",,0.001,0.001,1.1,0.0428,0.132,14.1,10.81,,85.63,51,,,,27906
-"Babyfood, fruit, applesauce and pineapple, junior","Baby Foods",0.1,0.004,0.002,1.5,0.0268,0.076,10.5,,0.1,89.1,39,0.011,0.009,0.032,27907
-"Babyfood, fruit, applesauce and pineapple, strained","Baby Foods",0.1,0.004,0.002,1.5,0.0281,0.078,10.1,,0.1,89.5,37,0.01,0.009,0.032,27908
-"Babyfood, fruit, applesauce with banana, junior","Baby Foods",0.37,0.005,0.003,1.6,0.0173,0.131,16.16,4.35,0.1,83.14,66,0.04,0.01,0.05,27909
-"Babyfood, fruit, applesauce, junior","Baby Foods",,0.005,0.001,1.7,0.0378,0.077,10.3,8.48,,89.5,37,,,,27910
-"Babyfood, fruit, applesauce, strained","Baby Foods",0.2,0.004,0,1.7,0.038299999999999994,0.071,10.8,9.87,0.2,88.6,41,0.032,0.008,0.056,27911
-"Babyfood, fruit, apricot with tapioca, junior","Baby Foods",0.3,0.008,0,1.5,0.0179,0.125,17.3,1.4,,82.1,63,,,,27912
-"Babyfood, fruit, apricot with tapioca, strained","Baby Foods",0.3,0.009,0,1.5,0.0216,0.121,16.3,1.41,,83.1,60,,,,27913
-"Babyfood, fruit, bananas and pineapple with tapioca, junior","Baby Foods",0.2,0.007,0,1.6,0.0212,0.078,18.4,8.41,0.1,81.1,68,0.036,0.009,0.02,27914
-"Babyfood, fruit, bananas and pineapple with tapioca, strained","Baby Foods",0.2,0.007,0,1.6,0.0192,0.068,17.8,10.73,,81.7,65,,,,27915
-"Babyfood, fruit, bananas with apples and pears, strained","Baby Foods",0.9,0.005,0.002,1.4,0.013900000000000001,0.233,19.31,12.76,0.22,79,83,0.106,0.028,0.085,27916
-"Babyfood, fruit, bananas with tapioca, junior","Baby Foods",0.4,0.008,0,1.6,0.0257,0.108,17.8,7.1,0.2,81.5,67,0.076,0.018,0.037,27917
-"Babyfood, fruit, bananas with tapioca, strained","Baby Foods",0.4,0.005,0,1.6,0.0167,0.088,15.3,0.38,0.1,84,56,0.035,0.01,0.019,27918
-"Babyfood, fruit, guava and papaya with tapioca, strained","Baby Foods",0.2,0.007,0.004,,0.0809,0.074,17,,0.1,82.5,63,,,,27919
-"Babyfood, fruit, papaya and applesauce with tapioca, strained","Baby Foods",0.2,0.007,0.005,1.4,0.11309999999999999,0.079,18.9,,0.1,80.6,70,,,,27920
-"Babyfood, fruit, peaches, junior","Baby Foods",0.94,0.004,0.004,1.3,0.0461,0.195,14.48,11.5,0.33,83.65,65,0.02,0.01,0.04,27921
-"Babyfood, fruit, peaches, strained","Baby Foods",0.94,0.004,0.004,1.3,0.0461,0.195,14.48,11.5,0.33,83.65,65,0.02,0.01,0.04,27922
-"Babyfood, fruit, pears and pineapple, junior","Baby Foods",0.3,0.01,0,2.6,0.016800000000000002,0.118,11.4,7.36,0.2,87.8,44,0.013,0.031,0.058,27923
-"Babyfood, fruit, pears and pineapple, strained","Baby Foods",0.3,0.01,0,2.6,0.0275,0.116,10.9,7.79,0.1,88.5,41,0.007,0.016,0.029,27924
-"Babyfood, fruit, pears, junior","Baby Foods",0.3,0.008,0.001,3.6,0.022,0.115,11.6,7.34,0.1,87.8,44,0.006,0.021,0.023,27925
-"Babyfood, fruit, pears, strained","Baby Foods",0.3,0.008,0.001,3.6,0.0245,0.13,10.8,6.98,0.2,88.4,42,0.012,0.042,0.046,27926
-"Babyfood, fruit, plums with tapioca, without ascorbic acid, junior","Baby Foods",0.1,0.006,0,1.2,0.0008,0.083,20.5,13.64,,79.2,74,,,,27927
-"Babyfood, fruit, plums with tapioca, without ascorbic acid, strained","Baby Foods",0.1,0.006,0,1.2,0.0011,0.085,19.7,13.34,,80,71,,,,27928
-"Babyfood, fruit, prunes with tapioca, without ascorbic acid, junior","Baby Foods",0.6,0.015,0.002,2.7,0.0008,0.162,18.7,10.97,0.1,80.1,70,0.008,0.066,0.022,27929
-"Babyfood, fruit, prunes with tapioca, without ascorbic acid, strained","Baby Foods",0.6,0.015,0.005,2.7,0.0008,0.177,18.5,10.97,0.1,80.3,69,0.008,0.066,0.022,27930
-"Babyfood, fruit, tutti frutti, junior","Baby Foods",0.4,0.014,0.017,0.4,0.0072,0.047,16,9.41,0.4,82.9,69,0.11,0.148,0.061,27931
-"Babyfood, fruit, tutti frutti, strained","Baby Foods",0.4,0.015,0.025,0.6,0.0124,0.046,15.48,9.29,0.3,83.5,66,0.087,0.113,0.043,27932
-"Babyfood, green beans, dices, toddler","Baby Foods",1.2,0.027,0.037,1.3,0.0017,0.116,5.7,1.06,0.2,92.6,29,0.044,0.008,0.102,27933
-"Babyfood, juice treats, fruit medley, toddler","Baby Foods",,0.012,0.089,,0.008,0.054,86.68,57.4,,12.89,347,,,,27934
-"Babyfood, juice, apple","Baby Foods",,0.004,0.008,0.1,0.0579,0.091,11.7,10.7,0.1,88,47,0.018,0.002,0.031,27935
-"Babyfood, juice, apple - cherry","Baby Foods",0.2,0.007,0.004,0.3,0.032100000000000004,0.11,11.2,10.5,0.1,88.2,47,0.02,,0.03,27936
-"Babyfood, juice, apple and cherry","Baby Foods",0.1,0.005,0,0.1,0.0583,0.098,9.9,8.98,0.2,89.5,41,0.035,0.011,0.06,27937
-"Babyfood, juice, apple and grape","Baby Foods",0.1,0.006,0,0.1,0.0315,0.09,11.34,10.9,0.2,88.1,46,0.04,0.009,0.059,27938
-"Babyfood, juice, apple and peach","Baby Foods",0.2,0.003,0,0.1,0.0585,0.097,10.5,9.59,0.1,89,43,0.018,0.002,0.031,27939
-"Babyfood, juice, apple and plum","Baby Foods",0.1,0.005,0,0.1,0.0582,0.101,12.3,11.54,,87.3,49,,,,27940
-"Babyfood, juice, apple and prune","Baby Foods",0.2,0.009,0.008,0.1,0.0675,0.148,18.1,10.58,0.1,81.3,72,0.018,0.006,0.031,27941
-"Babyfood, juice, apple, with calcium","Baby Foods",0.06,0.127,0.003,0.4,0.0212,0.092,11.1,9,0.1,88.3,46,0.018,0.005,0.032,27942
-"Babyfood, juice, apple-sweet potato","Baby Foods",0.3,0.015,0.005,0.5,0.0341,0.137,11.4,9.6,0.1,87.9,48,0.03,0.01,0.05,27943
-"Babyfood, juice, fruit punch, with calcium","Baby Foods",0.2,0.064,0.004,0.4,0.0212,0.086,12.7,10.6,0.1,86.5,52,0.02,0.004,0.029,27944
-"Babyfood, juice, mixed fruit","Baby Foods",0.1,0.008,0.008,0.1,0.0636,0.101,11.7,8.46,0.1,87.9,47,0.015,0.006,0.039,27945
-"Babyfood, juice, orange","Baby Foods",0.6,0.012,0,0.1,0.0625,0.184,10.2,8.26,0.3,88.5,45,0.035,0.05,0.06,27946
-"Babyfood, juice, orange and apple","Baby Foods",0.4,0.01,0.003,,0.07690000000000001,0.138,10.1,,0.2,88.9,43,,,,27947
-"Babyfood, juice, orange and apple and banana","Baby Foods",0.4,0.005,0,0.1,0.032100000000000004,0.134,11.5,10.03,0.1,87.6,47,0.016,0.007,0.027,27948
-"Babyfood, juice, orange and apricot","Baby Foods",0.8,0.006,0.006,0.1,0.0859,0.199,10.9,,0.1,87.8,46,0.011,0.022,0.02,27949
-"Babyfood, juice, orange and banana","Baby Foods",0.7,0.017,0.003,,0.034,0.2,11.9,,0.1,86.9,50,,,,27950
-"Babyfood, juice, orange and pineapple","Baby Foods",0.5,0.008,0.002,0.1,0.053399999999999996,0.141,11.7,,0.1,87.3,48,0.01,0.014,0.024,27951
-"Babyfood, juice, orange-carrot","Baby Foods",0.5,0.016,0.01,0.4,0.0341,0.174,9.9,8.4,0.1,89.1,43,0.01,0.01,0.03,27952
-"Babyfood, juice, pear","Baby Foods",,0.012,0.008,0.1,0.0338,0.13,11.86,7.28,,87.9,47,,,,27953
-"Babyfood, juice, prune and orange","Baby Foods",0.6,0.012,0.002,,0.0638,0.181,16.8,,0.3,81.9,70,,,,27954
-"Babyfood, macaroni and cheese, toddler","Baby Foods",3.5,0.102,0.112,0.5,0,0.018,11.2,0.79,2.6,81.7,82,1.53,0.7,0.17,27955
-"Babyfood, mashed cheddar potatoes and broccoli, toddlers","Baby Foods",1.13,0.038,0.176,0.9,0.0014,0.118,7.64,1.18,1.47,88.78,48,0.632,0.29,0.291,27956
-"Babyfood, meat, beef with vegetables, toddler","Baby Foods",3.5,0.011,0.026,0.5,0.0025,0.168,8.72,1.18,2.1,85.23,68,0.847,0.92,0.108,27957
-"Babyfood, meat, beef, junior","Baby Foods",12.03,0.005,0.041,,0.0021000000000000003,0.187,2.43,,2.52,82.44,81,1.18,0.95,0.16,27958
-"Babyfood, meat, beef, strained","Baby Foods",12.03,0.005,0.041,,0.0021000000000000003,0.187,2.43,,2.52,82.44,81,1.18,0.95,0.16,27959
-"Babyfood, meat, chicken sticks, junior","Baby Foods",14.6,0.073,0.408,0.2,0.0017,0.106,1.5,1.4,14.4,68.3,188,4.094,6.267,2.986,27960
-"Babyfood, meat, chicken, junior","Baby Foods",14,0.055,0.049,,0.0015,0.122,,,9.6,76,146,2.47,4.33,2.33,27961
-"Babyfood, meat, chicken, strained","Baby Foods",13.7,0.064,0.049,,0.0017,0.141,0.1,,7.9,77.5,130,2.03,3.56,1.92,27962
-"Babyfood, meat, ham, junior","Baby Foods",11.3,0.005,0.044,,0.0021000000000000003,0.21,3.7,,3.8,80.5,97,1.271,1.804,0.516,27963
-"Babyfood, meat, ham, strained","Baby Foods",11.3,0.006,0.044,,0.0021000000000000003,0.204,3.7,,3.8,80.5,97,1.267,1.803,0.51,27964
-"Babyfood, meat, lamb, junior","Baby Foods",15.2,0.007,0.042,,0.0017,0.211,,,5.2,79.6,112,2.56,2.06,0.22,27965
-"Babyfood, meat, lamb, strained","Baby Foods",14.07,0.007,0.043,,0.0012,0.193,0.85,,3.41,81.06,87,1.65,1.27,0.31,27966
-"Babyfood, meat, meat sticks, junior","Baby Foods",13.4,0.034,0.423,0.2,0.0024,0.114,1.1,0.8,14.6,69.5,184,5.82,6.48,1.59,27967
-"Babyfood, meat, pork, strained","Baby Foods",14,0.005,0.042,,0.0018,0.223,,,7.1,78.4,124,2.4,3.58,0.78,27968
-"Babyfood, meat, turkey sticks, junior","Baby Foods",13.7,0.083,0.44,0.5,0.0015,0.12,1.4,1.4,14.2,69.8,188,4.143,4.671,3.615,27969
-"Babyfood, meat, turkey, junior","Baby Foods",11.5,0.041,0.049,,0,0.135,1.4,,6.2,80.32,111,1.641,2.384,1.741,27970
-"Babyfood, meat, turkey, strained","Baby Foods",11.5,0.041,0.049,,0.0022,0.135,1.4,,6.2,80.32,111,1.641,2.384,1.741,27971
-"Babyfood, meat, veal, strained","Baby Foods",13.12,0.006,0.039,,0,0.17,1.51,,2.45,82.37,81,1.063,1.054,0.157,27972
-"Babyfood, mixed fruit juice with low fat yogurt","Baby Foods",2.4,0.081,0.036,0.4,0.0339,0.137,14.68,10.8,0.8,81.5,76,0.517,0.219,0.022,27973
-"Babyfood, mixed fruit yogurt, strained","Baby Foods",0.8,0.028,0.016,0.4,0.011699999999999999,0.062,16.23,11.74,0.8,81.8,75,0.517,0.219,0.022,27974
-"Babyfood, oatmeal cereal with fruit, dry, instant, toddler","Baby Foods",10.5,0.286,0,7.8,0.0027,0.346,74.1,11.09,7.05,5.4,402,1.572,3.008,2.29,27975
-"Babyfood, peaches, dices, toddler","Baby Foods",0.5,0.006,0.009,0.8,0.0313,0.083,11.8,9.49,0.2,87.4,51,0.016,0.046,0.078,27976
-"Babyfood, pears, dices, toddler","Baby Foods",0.3,0.01,0.006,1.2,0.0313,0.051,13.6,8.66,0.1,85.6,57,0.01,0.043,0.046,27977
-"Babyfood, peas and brown rice","Baby Foods",3.4,0.014,0.006,2.5,0.003,0.093,11.49,2.88,0.5,84.1,64,0.1,0.18,0.18,27978
-"Babyfood, peas, dices, toddler","Baby Foods",3.9,0.021,0.048,3.9,0.006,0.081,10.3,4.13,0.8,84.6,64,0.14,0.07,0.37,27979
-"Babyfood, plums, bananas and rice, strained","Baby Foods",1.1,0.003,0,1.3,0.0123,0.265,12.7,9.3,0.3,85.6,57,0.06,0.12,0.07,27980
-"Babyfood, potatoes, toddler","Baby Foods",1,0.004,0.057,0.9,0.0105,0.11,11.73,0.91,0.1,86.8,52,0.015,0.002,0.025,27981
-"Babyfood, pretzels","Baby Foods",10.8,0.025,0.269,2.3,0.0038,0.137,82.2,3.08,2,4,397,0.316,0.188,0.833,27982
-"Babyfood, prunes, without vitamin c, strained","Baby Foods",1,0.021,0.001,2.7,0.0013,0.306,23.52,21.21,0.2,74.3,100,0.02,0.13,0.04,27983
-"Babyfood, ravioli, cheese filled, with tomato sauce","Baby Foods",3.6,0.054,0.282,0.1,0.0001,0.032,16.3,0.59,2.2,76.5,99,0.96,0.57,0.48,27984
-"Babyfood, rice and apples, dry","Baby Foods",6.7,0.85,0.016,3,0,0.41,86.89,3.22,2.4,3.2,396,0.503,0.615,0.92,27985
-"Babyfood, teething biscuits","Baby Foods",10.7,0.263,0.227,1.4,0.0091,0.323,76.4,12.65,4.2,6.4,391,1.206,1.702,0.998,27986
-"Babyfood, vegetable and brown rice, strained","Baby Foods",1.9,0.014,0.014,1.1,0.0003,0.135,12.1,2.39,1.5,84.1,69,0.14,0.97,0.32,27987
-"Babyfood, vegetable, butternut squash and corn","Baby Foods",2,0.032,0.005,2,0.004900000000000001,0.352,9.26,2.93,0.6,87.3,50,0.095,0.166,0.28,27988
-"Babyfood, vegetable, green beans and potatoes","Baby Foods",2.2,0.06,0.018,1.4,0.0011,0.148,9,2.35,1.9,86.2,62,1.117,0.539,0.132,27989
-"Babyfood, vegetables, beets, strained","Baby Foods",1.3,0.014,0.083,1.9,0.0024,0.182,7.7,6.09,0.1,90.1,34,0.016,0.019,0.036,27990
-"Babyfood, vegetables, carrots, junior","Baby Foods",0.8,0.023,0.049,1.7,0.0055,0.202,7.2,3.16,0.2,91,32,0.036,0.009,0.093,27991
-"Babyfood, vegetables, carrots, strained","Baby Foods",0.8,0.022,0.069,1.7,0.0057,0.196,6,3.64,0.1,92.3,26,0.018,0.004,0.047,27992
-"Babyfood, vegetables, corn, creamed, junior","Baby Foods",1.4,0.004,0.052,2.1,0.0022,0.081,16.25,1.48,0.4,81.4,65,0.074,0.116,0.178,27993
-"Babyfood, vegetables, corn, creamed, strained","Baby Foods",1.4,0.02,0.043,2.1,0.0021000000000000003,0.09,14.1,1.23,0.4,83.6,57,0.076,0.116,0.176,27994
-"Babyfood, vegetables, garden vegetable, strained","Baby Foods",2.3,0.028,0.031,1.5,0.0057,0.168,6.8,2.57,0.2,90,32,0.035,0.011,0.09,27995
-"Babyfood, vegetables, green beans, junior","Baby Foods",1.2,0.065,0.005,1.9,0.008400000000000001,0.128,5.8,1.08,0.1,92.5,24,0.023,0.004,0.052,27996
-"Babyfood, vegetables, green beans, strained","Baby Foods",1.2,0.039,0.007,2.2,0.0003,0.146,6.29,1.88,0.17,91.85,27,0.039,,0.116,27997
-"Babyfood, vegetables, mix vegetables junior","Baby Foods",1.4,0.011,0.036,1.5,0.0025,0.17,8.2,1.78,0.4,89.4,36,0.079,0.025,0.186,27998
-"Babyfood, vegetables, mix vegetables strained","Baby Foods",1.2,0.013,0,1.5,0.0017,0.127,8.05,1.57,0.5,89.8,36,0.089,0.118,0.194,27999
-"Babyfood, vegetables, peas, strained","Baby Foods",3.27,0.018,0.005,2,0.0006,0.106,8.36,2.01,0.43,87.52,50,0.07,0.05,0.2,28000
-"Babyfood, vegetables, spinach, creamed, strained","Baby Foods",2.5,0.089,0.049,1.8,0.0087,0.191,5.7,2.33,1.3,89.6,37,0.702,0.332,0.133,28001
-"Babyfood, vegetables, squash, junior","Baby Foods",0.81,0.024,0.005,0.9,0.0003,0.185,5.73,3.24,0.2,92.66,24,0.02,0.02,0.04,28002
-"Babyfood, vegetables, squash, strained","Baby Foods",0.81,0.024,0.005,0.9,0.0003,0.185,5.73,3.37,0.2,92.66,28,0.02,0.02,0.04,28003
-"Babyfood, vegetables, sweet potatoes strained","Baby Foods",1.1,0.016,0.022,1.5,0.0099,0.263,13.2,4.05,0.1,84.8,57,0.021,0.004,0.044,28004
-"Babyfood, vegetables, sweet potatoes, junior","Baby Foods",1.1,0.016,0.018,1.5,0.0096,0.243,14,4.24,0.1,84.1,60,0.021,0.004,0.044,28005
-"Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added DHA","Baby Foods",3.4,0.107,0.041,0.3,0.0014,0.149,13.22,11.46,3.53,79.16,98,1.84,0.916,0.367,28006
-"Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added iron","Baby Foods",3.05,0.098,0.038,0.6,0.0036,0.143,13,11.46,3.08,80.21,92,1.582,0.74,0.405,28007
-"Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed (formerly ROSS)","Baby Foods",2.86,0.093,0.036,,0.0095,0.125,11.15,10.5,4.77,80.47,99,1.256,1.936,1.068,28008
-"Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed, with iron and fiber (formerly ROSS)","Baby Foods",2.8,0.092,0.036,0.5,0.0096,0.124,11.28,7.6,4.7,80.47,99,1.256,1.936,1.067,28009
-"Child formula, MEAD JOHNSON, PORTAGEN, with iron, powder, not reconstituted","Baby Foods",16.5,0.44,0.26,,0.038,0.59,54.8,54,22,3,483,19.186,0.683,1.609,28010
-"Child formula, MEAD JOHNSON, PORTAGEN, with iron, prepared from powder","Baby Foods",3.33,0.088,0.052,,0.0076,0.118,8.57,7.4,4.48,82.86,88,3.953,0.143,0.333,28011
-"Fluid replacement, electrolyte solution (include PEDIALYTE)","Baby Foods",,0.01,0.101,,0,0.077,2.45,2.45,,96.44,10,,,,28012
-"Gerber graduates Fruit Strips Real Fruit Bars","Baby Foods",0.82,0.018,0.014,7.8,0.1799,0.312,76.61,68.65,2.24,19.09,330,0.361,0.091,0.658,28013
-"Infant Formula, MEAD JOHNSON, ENFAMIL GENTLEASE LIPIL, with iron, prepared from powder","Baby Foods",1.52,0.053,0.021,,0.0079,0.071,6.39,6.44,3.5,88.4,63,1.5,1.3,0.7,28014
-"Infant Formula, MEAD JOHNSON, ENFAMIL, ENFACARE LIPIL, ready-to-feed, with ARA and DHA","Baby Foods",2,0.086,0.025,,0.011300000000000001,0.075,7.4,7.4,3.8,86,71,1.578,1.33,0.862,28015
-"Infant formula, ABBOTT NUTRITION, ALIMENTUM ADVANCE, with iron, powder, not reconstituted, with DHA and ARA (formerly ROSS)","Baby Foods",13.99,0.534,0.224,,0.0458,0.598,51.91,34.18,28.19,1.5,517,14.282,2.276,8.877,28016
-"Infant formula, ABBOTT NUTRITION, SIMILAC NATURAL CARE, ADVANCE, ready-to-feed, with ARA and DHA (formerly ROSS)","Baby Foods",2.12,0.163,0.034,,0.0289,0.101,8.2,8.2,4.24,85.07,78,2.544,0.402,0.842,28017
-"Infant formula, ABBOTT NUTRITION, SIMILAC NEOSURE, ready-to-feed, with ARA and DHA (formerly ROSS)","Baby Foods",1.92,0.072,0.023,,0.0103,0.097,6.94,6.9,3.77,87,69,2.447,0.387,0.844,28018
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ADVANCE, with iron, liquid concentrate, not reconstituted (formerly ROSS)","Baby Foods",2.64,0.099,0.031,,0.0115,0.134,13.52,13.52,6.89,76.16,127,2.401,2.551,1.555,28019
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ADVANCE, with iron, powder, not reconstituted (formerly ROSS)","Baby Foods",10.89,0.41,0.126,,0.047299999999999995,0.552,54.73,54.73,28.87,2.25,522,9.873,10.491,6.396,28020
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ADVANCE, with iron, ready-to-feed (formerly ROSS)","Baby Foods",1.36,0.053,0.016,,0.005900000000000001,0.069,6.77,6.9,3.7,87.79,66,1.237,1.314,0.801,28021
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ALIMENTUM, ADVANCE, ready-to-feed, with ARA and DHA (formerly ROSS)","Baby Foods",1.8,0.069,0.029,,0.005900000000000001,0.077,6.77,4.4,3.63,87.32,67,1.838,0.294,1.126,28022
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ALIMENTUM, with iron, ready-to-feed (formerly ROSS)","Baby Foods",1.8,0.069,0.029,,0.005900000000000001,0.077,6.77,4.4,3.63,87.32,66,1.838,0.294,1.113,28023
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, ADVANCE with iron, liquid concentrate (formerly ROSS)","Baby Foods",3.13,0.134,0.056,,0.0115,0.138,13.21,13.1,6.98,75.81,128,2.262,2.66,1.625,28024
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, ADVANCE with iron, powder, not reconstituted (formerly ROSS)","Baby Foods",12.6,0.54,0.226,,0.046299999999999994,0.555,53.57,52.97,28.09,2.5,517,9.167,10.778,6.584,28025
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, ADVANCE with iron, ready-to-feed (formerly ROSS)","Baby Foods",1.61,0.069,0.029,,0.005900000000000001,0.071,6.7,6.7,3.59,87.54,66,1.166,1.371,0.838,28026
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, liquid concentrate (formerly ROSS)","Baby Foods",3.13,0.134,0.056,,0.0115,0.138,13.21,13.1,6.98,75.81,128,2.262,2.66,1.625,28027
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, powder, not reconstituted (formerly ROSS)","Baby Foods",12.6,0.54,0.226,,0.046299999999999994,0.555,53.57,52.97,28.09,2.5,517,9.167,10.778,6.584,28028
-"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, ready-to-feed (formerly ROSS)","Baby Foods",1.61,0.069,0.029,,0.005900000000000001,0.071,6.7,6.7,3.59,87.54,66,1.166,1.371,0.838,28029
-"Infant formula, ABBOTT NUTRITION, SIMILAC, NEOSURE, powder, with ARA and DHA (formerly ROSS)","Baby Foods",14.42,0.541,0.17,,0.0772,0.731,51.75,52.02,28.33,2.25,520,9.871,10.492,6.66,28030
-"Infant formula, ABBOTT NUTRITION, SIMILAC, PM 60/40, powder not reconstituted (formerly ROSS)","Baby Foods",11.4,0.288,0.123,,0.046200000000000005,0.411,54.94,52.38,28.71,2.25,524,12.214,5.242,10.835,28031
-"Infant formula, ABBOTT NUTRITION, SIMILAC, SENSITIVE (LACTOSE FREE) ready-to-feed, with ARA and DHA (formerly ROSS)","Baby Foods",1.48,0.058,0.021,,0.006,0.074,7.04,7.4,3.74,87,68,2.43,0.384,0.832,28032
-"Infant formula, ABBOTT NUTRITION, SIMILAC, SENSITIVE, (LACTOSE FREE), liquid concentrate, with ARA and DHA (formerly ROSS)","Baby Foods",2.73,0.108,0.039,,0.0115,0.138,13.64,13.78,6.95,75.88,128,4.522,0.715,1.548,28033
-"Infant formula, ABBOTT NUTRITION, SIMILAC, SENSITIVE, (LACTOSE FREE), powder, with ARA and DHA (formerly ROSS)","Baby Foods",11.13,0.436,0.158,,0.0451,0.557,55.53,55.67,28.14,2.2,520,18.305,2.894,6.27,28034
-"Infant formula, ABBOTT NUTRITION, SIMILAC, SPECIAL CARE, ADVANCE 24, with iron, ready-to-feed, with ARA and DHA (formerly ROSS)","Baby Foods",1.8,0.141,0.034,,0.0291,0.101,8.73,8.3,3.26,85.61,71,2.12,0.324,0.737,28035
-"Infant formula, ABBOTT NUTRITION, SIMILAC, low iron, liquid concentrate, not reconstituted (formerly ROSS)","Baby Foods",2.64,0.099,0.031,,0.0115,0.134,13.76,13.76,6.89,76.16,127,2.401,2.551,1.555,28036
-"Infant formula, ABBOTT NUTRITION, SIMILAC, low iron, powder, not reconstituted (formerly ROSS)","Baby Foods",10.85,0.41,0.126,,0.047299999999999995,0.552,54.78,54.7,28.87,2.25,522,9.873,10.491,6.396,28037
-"Infant formula, ABBOTT NUTRITION, SIMILAC, low iron, ready-to-feed (formerly ROSS)","Baby Foods",1.36,0.051,0.016,,0.005900000000000001,0.069,6.93,6.93,3.55,87.79,65,1.237,1.314,0.801,28038
-"Infant formula, ABBOTT NUTRITION, SIMILAC, with iron, liquid concentrate, not reconstituted (formerly ROSS)","Baby Foods",2.64,0.099,0.031,,0.0115,0.134,13.76,13.76,6.89,76.16,127,2.401,2.551,1.555,28039
-"Infant formula, ABBOTT NUTRITION, SIMILAC, with iron, powder, not reconstituted (formerly ROSS)","Baby Foods",10.89,0.41,0.126,,0.047299999999999995,0.552,54.73,54.73,28.87,2.25,522,9.873,10.491,6.396,28040
-"Infant formula, ABBOTT NUTRITION, SIMILAC, with iron, ready-to-feed (formerly ROSS)","Baby Foods",1.36,0.051,0.016,,0.005900000000000001,0.069,6.92,6.9,3.55,87.79,65,1.237,1.314,0.801,28041
-"Infant formula, MEAD JOHNSON, ENFAMIL LIPIL, with iron, ready-to-feed, with ARA and DHA","Baby Foods",1.38,0.051,0.018,,0.0079,0.071,7.1,7.1,3.5,88.35,64,1.453,1.255,0.67,28042
-"Infant formula, MEAD JOHNSON, ENFAMIL, AR LIPIL, powder, with ARA and DHA","Baby Foods",12.73,0.397,0.204,,0.0611,0.55,56.03,56.03,25.97,3,509,10.942,9.292,5.124,28043
-"Infant formula, MEAD JOHNSON, ENFAMIL, AR LIPIL, ready-to-feed, with ARA and DHA","Baby Foods",1.71,0.053,0.027,,0.008199999999999999,0.074,7.53,6.44,3.49,87,68,1.453,1.255,0.67,28044
-"Infant formula, MEAD JOHNSON, ENFAMIL, ENFACARE LIPIL, powder, with ARA and DHA","Baby Foods",14,0.59,0.173,,0.079,0,54.6,51,26,2.5,508,10.8,9.1,5.9,28045
-"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE LIPIL, with iron, powder, with ARA and DHA","Baby Foods",10.9,0.43,0.156,,0.062,0.57,56.3,54.77,28,2.2,521,11.9,10.4,5.5,28046
-"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, LIPIL, with iron, liquid concentrate, not reconstituted, with ARA and DHA","Baby Foods",2.68,0.104,0.038,,0.015300000000000001,0.14,14.42,13.96,7.11,75.47,132,3.059,2.642,1.411,28047
-"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, ready-to-feed","Baby Foods",1.38,0.053,0.019,,0.0079,0.072,7.18,7.18,3.5,88.35,63,1.495,1.291,0.689,28048
-"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, with iron, liquid concentrate, not reconstituted","Baby Foods",2.68,0.104,0.038,,0.015300000000000001,0.14,14.42,13.96,6.79,75.47,130,2.906,2.509,1.283,28049
-"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, with iron, powder, not reconstituted","Baby Foods",10.85,0.43,0.156,,0.062,0.58,56.35,57,28,2.2,521,12.02,10.43,5.26,28050
-"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, low iron, liquid concentrate, with ARA and DHA","Baby Foods",2.76,0.102,0.039,,0.0158,0.142,14.24,14.24,7.16,75.32,131,3.078,2.659,1.419,28051
-"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, low iron, powder, with ARA and DHA","Baby Foods",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,511,11.2,9.63,5.2,28052
-"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, low iron, ready to feed, with ARA and DHA","Baby Foods",1.38,0.051,0.018,,0.0079,0.071,7.18,7.18,3.5,88.35,64,1.453,1.255,0.67,28053
-"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, ready-to-feed, with ARA and DHA","Baby Foods",1.38,0.054,0.019,,0.0079,0.072,6.44,6.44,3.5,88.35,66,1.453,1.255,0.67,28054
-"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, with iron, liquid concentrate, with ARA and DHA","Baby Foods",2.76,0.102,0.035,,0.0158,0.142,14.34,14,6.96,75.34,131,3.08,2.656,1.418,28055
-"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, with iron, powder, with ARA and DHA","Baby Foods",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,511,11.221,9.899,5.24,28056
-"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN LIPIL, with iron, powder, not reconstituted, with ARA and DHA","Baby Foods",13.9,0.47,0.23,,0.06,0.55,51,51,26,3,494,11.2,9.6,5.2,28057
-"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN LIPIL, with iron, ready to feed, with ARA and DHA","Baby Foods",1.83,0.062,0.031,,0.0079,0.072,6.81,5.13,3.5,87.38,66,1.453,1.255,0.67,28058
-"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, LIPIL, with iron, liquid concentrate not reconstituted, with ARA and DHA","Baby Foods",3.53,0.123,0.06,,0.015099999999999999,0.138,13.12,9.87,6.73,75.7,126,2.798,2.486,1.327,28059
-"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, with iron, liquid concentrate, not reconstituted","Baby Foods",3.53,0.12,0.06,,0.015099999999999999,0.138,13.12,13.08,6.73,75.7,127,2.879,2.493,1.159,28060
-"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, with iron, powder, not reconstituted","Baby Foods",14.2,0.47,0.23,,0.06,0.55,55,55,25,2.5,502,10.99,9.52,4.93,28061
-"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, with iron, ready-to-feed","Baby Foods",1.83,0.062,0.031,,0.0079,0.072,6.81,5.13,3.5,87.38,66,1.364,1.206,0.617,28062
-"Infant formula, MEAD JOHNSON, ENFAMIL, PROSOBEE LIPIL, with iron, powder, not reconstituted, with ARA and DHA","Baby Foods",12.5,0.53,0.171,,0.06,0.6,53,53,27,3.5,510,11.37,10.32,5.2,28063
-"Infant formula, MEAD JOHNSON, ENFAMIL, PROSOBEE, LIPIL, liquid concentrate, not reconstituted, with ARA and DHA","Baby Foods",3.19,0.134,0.045,,0.015300000000000001,0.153,13.58,13.58,7.11,75.47,131,2.969,2.598,1.378,28064
-"Infant formula, MEAD JOHNSON, ENFAMIL, PROSOBEE, with iron, powder, not reconstituted","Baby Foods",12.5,0.53,0.18,,0.06,0.6,54.3,53,27,3,510,11.37,10.32,5.2,28065
-"Infant formula, MEAD JOHNSON, ENFAMIL, low iron, liquid concentrate, not reconstituted","Baby Foods",2.76,0.102,0.035,,0.0158,0.142,14.05,14,7.25,75.34,132,3.084,2.693,1.437,28066
-"Infant formula, MEAD JOHNSON, ENFAMIL, low iron, powder, not reconstituted","Baby Foods",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,511,11.5,10,5.3,28067
-"Infant formula, MEAD JOHNSON, ENFAMIL, low iron, ready-to-feed","Baby Foods",1.38,0.051,0.018,,0.0079,0.071,7.18,7.18,3.5,88.35,63,1.479,1.291,0.689,28068
-"Infant formula, MEAD JOHNSON, ENFAMIL, with iron, liquid concentrate, not reconstituted","Baby Foods",2.68,0.1,0.035,,0.015300000000000001,0.138,13.96,13.96,7.31,75.47,128,3.093,2.8,1.41,28069
-"Infant formula, MEAD JOHNSON, ENFAMIL, with iron, powder","Baby Foods",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,520,11.5,10.3,5.2,28070
-"Infant formula, MEAD JOHNSON, ENFAMIL, with iron, ready-to-feed","Baby Foods",1.38,0.051,0.018,,0.0079,0.071,7.18,7.18,3.5,88.35,63,1.469,1.33,0.67,28071
-"Infant formula, MEAD JOHNSON, NEXT STEP PROSOBEE, powder, not reconstituted","Baby Foods",15.6,0.92,0.171,,0.057,0.57,57.1,56,21,3,480,8.905,7.8,4.2,28072
-"Infant formula, MEAD JOHNSON, NEXT STEP, PROSOBEE LIPIL, powder, with ARA and DHA","Baby Foods",15.6,0.92,0.171,,0.057,0.57,57.1,56,21,3,480,8.905,7.8,4.2,28073
-"Infant formula, MEAD JOHNSON, NEXT STEP, PROSOBEE, LIPIL, ready to feed, with ARA and DHA","Baby Foods",2.14,0.128,0.023,,0.0079,0.079,8.09,7.77,2.91,86.4,67,1.242,1.078,0.573,28074
-"Infant formula, MEAD JOHNSON, PREGESTIMIL, with iron, powder, not reconstituted","Baby Foods",14,0.58,0.24,,0.06,0.55,52.8,51,28,2,519,16.8,4.6,6.5,28075
-"Infant formula, MEAD JOHNSON, PREGESTIMIL, with iron, prepared from powder","Baby Foods",1.82,0.075,0.031,,0.0078,0.071,6.63,6.63,3.65,87.5,67,2.172,0.583,0.809,28076
-"Infant formula, MEAD JOHNSON, PROSOBEE LIPIL, with iron, ready to feed, with ARA and DHA","Baby Foods",1.64,0.069,0.023,,0.0079,0.079,6.11,6.11,3.5,88.35,64,1.453,1.255,0.671,28077
-"Infant formula, MEAD JOHNSON, PROSOBEE, with iron, liquid concentrate, not reconstituted","Baby Foods",3.19,0.134,0.045,,0.015300000000000001,0.153,13.58,13.58,7.13,75.47,131,3.038,2.72,1.371,28078
-"Infant formula, MEAD JOHNSON, PROSOBEE, with iron, ready-to-feed","Baby Foods",1.64,0.069,0.023,,0.0079,0.079,6.11,6.11,3.5,88.35,63,1.443,1.292,0.651,28079
-"Infant formula, MEAD JOHNSON,NEXT STEP PROSOBEE, prepared from powder","Baby Foods",2.14,0.128,0.023,,0.0079,0.079,8.08,7.77,2.91,86.41,67,1.243,1.078,0.544,28080
-"Infant formula, NESTLE, GOOD START 2 ESSENTIALS, with iron, liquid concentrate, not reconstituted","Baby Foods",3.25,0.15,0.049,,0.011,0.169,16.5,11.9,5.13,74.2,125,2.213,1.582,1.213,28081
-"Infant formula, NESTLE, GOOD START 2 ESSENTIALS, with iron, powder","Baby Foods",12.2,0.565,0.184,,0.042,0.636,62.23,44.3,19.3,2.5,471,8.54,6.23,4.31,28082
-"Infant formula, NESTLE, GOOD START 2 ESSENTIALS, with iron, ready-to-feed","Baby Foods",1.7,0.078,0.025,,0.005900000000000001,0.088,8.54,6.19,2.7,86.6,65,1.18,0.87,0.6,28083
-"Infant formula, NESTLE, GOOD START ESSENTIALS SOY, with iron, liquid concentrate, not reconstituted","Baby Foods",3.2,0.133,0.046,,0.0152,0.146,14.1,11.2,6.5,75.4,128,2.8,2.03,1.317,28084
-"Infant formula, NESTLE, GOOD START ESSENTIALS SOY, with iron, powder","Baby Foods",12.5,0.526,0.18,,0.0601,0.581,55.7,44.38,25.5,2.5,502,11,8.1,6,28085
-"Infant formula, NESTLE, GOOD START ESSENTIALS SOY, with iron, ready-to-feed","Baby Foods",1.63,0.068,0.023,,0.0078,0.075,7.17,5.69,3.3,87.5,65,1.4,1,0.8,28086
-"Infant formula, NESTLE, GOOD START SOY, with ARA and DHA, powder","Baby Foods",12.5,0.526,0.2,,0.0601,0.581,55.6,44.38,25.6,2.5,503,11,8.1,6,28087
-"Infant formula, NESTLE, GOOD START SOY, with DHA and ARA, liquid concentrate","Baby Foods",3.31,0.139,0.053,,0.0159,0.154,14.71,11.74,6.67,74.2,132,2.897,2.198,1.431,28088
-"Infant formula, NESTLE, GOOD START SOY, with DHA and ARA, ready-to-feed","Baby Foods",1.6,0.067,0.026,,0.0077,0.074,7.13,5.68,3.28,87.5,64,1.4,1.189,0.695,28089
-"Infant formula, NESTLE, GOOD START SUPREME, with iron, DHA and ARA, prepared from liquid concentrate","Baby Foods",1.45,0.042,0.018,,0.005900000000000001,0.071,7.39,5,3.37,87.5,66,1.47,1.08,0.74,28090
-"Infant formula, NESTLE, GOOD START SUPREME, with iron, DHA and ARA, ready-to-feed","Baby Foods",1.45,0.042,0.018,,0.005900000000000001,0.071,7.39,5,3.37,87.5,66,1.47,1.08,0.74,28091
-"Infant formula, NESTLE, GOOD START SUPREME, with iron, liquid concentrate, not reconstituted","Baby Foods",2.79,0.081,0.034,,0.011,0.137,14.2,9.7,6.5,75.8,127,2.97,2.06,1.42,28092
-"Infant formula, NESTLE, GOOD START SUPREME, with iron, powder","Baby Foods",11.3,0.343,0.138,,0.0461,0.553,57.32,39.3,26.1,2.5,509,11.66,8.5,5.88,28093
-"Infant formula, NESTLE, GOOD START SUPREME, with iron, ready-to-feed","Baby Foods",1.45,0.042,0.018,,0.005900000000000001,0.071,7.39,5,3.37,87.5,66,1.47,1.08,0.74,28094
-"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, liquid concentrate, not reconstituted (formerly WYETH-AYERST)","Baby Foods",2.9,0.083,0.029,,0.0112,0.109,13.9,13.9,7,76,130,3.2,2.8,1,28095
-"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, powder (formerly WYETH-AYERST)","Baby Foods",12,0.331,0.118,,0.0433,0.441,56,56,28,2,524,12.761,11.131,3.951,28096
-"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, ready-to-feed (formerly WYETH-AYERST)","Baby Foods",1.4,0.041,0.014,,0.0056,0.055,6.4,6.4,3.5,88.1,63,1.6,1.4,0.5,28097
-"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, liquid concentrate (formerly WYETH-AYERST)","Baby Foods",3.6,0.118,0.036,,0.0108,0.138,12.18,12.18,7,76,126,3.2,2.8,1,28098
-"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, powder (formerly WYETH-AYERST)","Baby Foods",13.6,0.453,0.151,,0.042,0.528,52.2,52.2,27.2,2,508,12.37,10.78,3.83,28099
-"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, ready-to-feed (formerly WYETH-AYERST)","Baby Foods",1.8,0.059,0.018,,0.0054,0.069,6.09,6.1,3.5,88,63,1.6,1.4,0.5,28100
-"Infant formula, PBM PRODUCTS, store brand, liquid concentrate, not reconstituted (formerly WYETH-AYERST)","Baby Foods",2.9,0.083,0.029,,0.0112,0.109,13.9,13.9,7,76,130,3.2,2.8,1,28101
-"Infant formula, PBM PRODUCTS, store brand, powder (formerly WYETH-AYERST)","Baby Foods",12,0.331,0.118,,0.0433,0.441,56,56,28,2,524,12.761,11.131,3.951,28102
-"Infant formula, PBM PRODUCTS, store brand, ready-to-feed (formerly WYETH-AYERST)","Baby Foods",1.4,0.041,0.014,,0.0056,0.055,6.39,6.4,3.5,88.1,63,1.6,1.4,0.5,28103
-"Infant formula, PBM PRODUCTS, store brand, soy, liquid concentrate, not reconstituted (formerly WYETH-AYERST)","Baby Foods",3.6,0.118,0.036,,0.0108,0.138,12.18,12.18,7,76,126,3.2,2.8,1,28104
-"Infant formula, PBM PRODUCTS, store brand, soy, powder (formerly WYETH-AYERST)","Baby Foods",13.6,0.453,0.151,,0.042,0.528,52.2,52.2,27.2,2,508,12.37,10.78,3.83,28105
-"Infant formula, PBM PRODUCTS, store brand, soy, ready-to-feed (formerly WYETH-AYERST)","Baby Foods",1.8,0.059,0.018,,0.0054,0.069,6.09,6.1,3.5,88,63,1.6,1.4,0.5,28106
-"Zwieback","Baby Foods",10.1,0.02,0.227,2.5,0.0053,0.305,74.2,12.5,9.7,4.5,426,2.525,4.244,2.073,28107
+"Baby food, fortified cereal bar, fruit filling","Something Else",5.43,1.053,0.25,1.7,0.0024,0.18,68.63,42,5.3,14,344,0.453,3.107,1.541,27781
+"Babyfood, apple yogurt dessert, strained","Something Else",0.8,0.006,0.02,0.5,0.0351,0.07,19.5,12.02,1.6,77.9,96,1.034,0.438,0.044,27782
+"Babyfood, apple-banana juice","Something Else",0.2,0.007,0.004,0.2,0.027899999999999998,0.123,12.3,11,0.1,87.1,51,0.018,0.004,0.034,27783
+"Babyfood, apple-cranberry juice","Something Else",,0.006,0.005,,0.027899999999999998,0.097,11.49,6.88,0.02,88.3,46,0.007,,0.012,27784
+"Babyfood, apples with ham, strained","Something Else",2.6,0.004,0.009,1.8,0.0001,0.12,10.9,7.98,0.9,85.3,62,0.25,0.36,0.111,27785
+"Babyfood, apples, dices, toddler","Something Else",0.2,0.01,0.006,0.9,0.0313,0.05,12.1,10.83,0.1,87.5,51,0.02,0.004,0.03,27786
+"Babyfood, baked product, finger snacks cereal","Something Else",6.4,0.4,0.324,2.3,0.01,0.114,76.68,28,9.9,3.7,421,1.646,3.13,3.638,27787
+"Babyfood, banana apple dessert, strained","Something Else",0.3,0.003,0.007,1,0.0123,0.071,16.3,14.66,0.2,83.1,68,0.058,0.018,0.047,27788
+"Babyfood, banana juice with low fat yogurt","Something Else",2.5,0.079,0.037,0.4,0.0339,0.16,17.54,13.28,0.8,78.5,89,0.517,0.219,0.022,27789
+"Babyfood, banana no tapioca, strained","Something Else",1,0.004,0.002,1.6,0.0219,0.29,21.34,11.36,0.2,76.7,91,0.072,0.028,0.041,27790
+"Babyfood, carrots and beef, strained","Something Else",3.4,0.022,0.069,2.6,0.0008,0.226,5.7,2.04,2.5,87.3,59,0.96,1.06,0.13,27791
+"Babyfood, carrots, toddler","Something Else",0.6,0.019,0.048,2.3,0.0007,0.129,5.23,2.5,0.3,93.5,26,0.052,0.012,0.148,27792
+"Babyfood, cereal, barley, dry","Something Else",11.1,0.795,0.012,8.2,0.0022,0.395,75.3,3.1,3.4,6.8,365,0.418,0.666,1.759,27793
+"Babyfood, cereal, barley, prepared with whole milk","Something Else",3.73,0.162,0.043,0.6,0.0002,0.151,9.94,5.1,3.26,82.19,84,1.76,0.802,0.309,27794
+"Babyfood, cereal, brown rice, dry, instant","Something Else",8.7,0.055,0.009,6.5,0,0.386,85.65,0.92,3,1,404,0.6,1.08,1.07,27795
+"Babyfood, cereal, egg yolks and bacon, junior","Something Else",2.5,0.028,0.048,0.9,0.0009,0.035,6.2,,5,85.9,79,1.64,2.207,0.641,27796
+"Babyfood, cereal, high protein, prepared with whole milk","Something Else",8.7,0.218,0.049,,0,0.349,11.6,,3.8,74.5,111,,,,27797
+"Babyfood, cereal, high protein, with apple and orange, dry","Something Else",25.4,0.751,0.104,7.1,0.0031,1.33,57.6,,6.5,5.3,374,0.96,1.231,3.429,27798
+"Babyfood, cereal, high protein, with apple and orange, prepared with whole milk","Something Else",6.9,0.223,0.058,,0,0.346,13.4,,3.9,74.4,112,,,,27799
+"Babyfood, cereal, mixed, dry","Something Else",12.2,0.733,0.003,7.5,0.0023,0.437,73.4,0.87,4.4,6.7,379,0.769,1.206,1.697,27800
+"Babyfood, cereal, mixed, prepared with whole milk","Something Else",4.14,0.22,0.042,0.8,0.0003,0.166,12.3,4.78,3.38,79.21,96,1.745,0.855,0.359,27801
+"Babyfood, cereal, mixed, with applesauce and bananas, junior","Something Else",1.2,0.004,0.003,1.2,0.0091,0.032,18.4,7.79,0.4,79.6,83,0.072,0.108,0.152,27802
+"Babyfood, cereal, mixed, with applesauce and bananas, strained","Something Else",1.2,0.006,0.003,1.2,0.0255,0.041,18,7.79,0.5,80,82,0.09,0.135,0.191,27803
+"Babyfood, cereal, mixed, with bananas, dry","Something Else",10.7,0.696,0,7.8,0.0036,0.668,77.1,6.68,4.6,4.5,391,0.846,1.223,1.734,27804
+"Babyfood, cereal, mixed, with bananas, prepared with whole milk","Something Else",3.82,0.153,0.048,0.4,0.0004,0.178,10,5.9,3.46,81.81,86,1.808,0.859,0.342,27805
+"Babyfood, cereal, mixed, with honey, prepared with whole milk","Something Else",5,0.294,0.048,,0,0.171,15.9,,3.6,74.2,115,,,,27806
+"Babyfood, cereal, oatmeal, dry","Something Else",13.07,0.707,0.004,9,0,0.42,69.65,3.84,8,5.9,399,1.37,2.57,2.47,27807
+"Babyfood, cereal, oatmeal, prepared with whole milk","Something Else",5,0.22,0.046,1.1,0.0013,0.204,15.3,,4.1,74.5,116,2.258,,,27808
+"Babyfood, cereal, oatmeal, with applesauce and bananas, junior","Something Else",1.3,0.006,0.003,0.8,0.0245,0.048,15.7,9.48,0.7,81.8,75,0.126,0.216,0.253,27809
+"Babyfood, cereal, oatmeal, with applesauce and bananas, strained","Something Else",1.3,0.009,0.003,0.8,0.0218,0.047,15.4,10.49,0.7,82.2,74,0.125,0.216,0.253,27810
+"Babyfood, cereal, oatmeal, with bananas, dry","Something Else",12,0.651,0.006,5.2,0.0047,0.731,73.4,13.75,6,4.7,393,1.267,1.429,2.186,27811
+"Babyfood, cereal, oatmeal, with bananas, prepared with whole milk","Something Else",3.82,0.153,0.048,0.4,0.0004,0.178,10,5.9,3.46,81.81,86,1.82,0.859,0.345,27812
+"Babyfood, cereal, oatmeal, with honey, dry","Something Else",13.5,1.154,0.047,,0,0.259,69.3,,7,5.8,391,,,,27813
+"Babyfood, cereal, oatmeal, with honey, prepared with whole milk","Something Else",5,0.289,0.049,,0,0.17,15.3,,3.9,74.5,115,,,,27814
+"Babyfood, cereal, rice, dry","Something Else",7.1,0.85,0.006,0.5,0.0024,0.385,77.7,0.12,4.9,6.7,391,0.919,1.26,2.016,27815
+"Babyfood, cereal, rice, prepared with whole milk","Something Else",3.45,0.168,0.042,,0.0002,0.151,10.31,4.87,3.38,81.96,85,1.793,0.846,0.333,27816
+"Babyfood, cereal, rice, with applesauce and bananas, strained","Something Else",1.2,0.017,0.004,1,0.0316,0.028,17.1,2.24,0.4,81,80,0.114,0.104,0.102,27817
+"Babyfood, cereal, rice, with bananas, dry","Something Else",8.7,0.691,0,1,0.002,0.769,79.9,16.7,4.2,4.7,404,0.978,0.986,1.503,27818
+"Babyfood, cereal, rice, with bananas, prepared with whole milk","Something Else",3.57,0.156,0.047,0.1,0.0002,0.18,10.49,6.13,3.32,81.81,86,1.798,0.826,0.294,27819
+"Babyfood, cereal, rice, with honey, prepared with whole milk","Something Else",3.9,0.291,0.049,,0,0.141,17.1,,3.3,74.4,115,,,,27820
+"Babyfood, cereal, rice, with mixed fruit, junior","Something Else",0.9,0.016,0.01,0.6,0.009300000000000001,0.05,18.3,10.5,0.2,80.4,82,0.06,0.04,0.05,27821
+"Babyfood, cereal, whole wheat, with apples, dry","Something Else",12.6,0.6,0.025,12.2,0.0583,0.516,77.1,22.2,4.8,1.7,402,0.639,1.277,1.866,27822
+"Babyfood, cereal, with egg yolks, junior","Something Else",1.9,0.024,0.033,0.9,0.0007,0.035,7.1,,1.8,88.7,52,0.61,0.79,0.3,27823
+"Babyfood, cereal, with egg yolks, strained","Something Else",1.9,0.024,0.033,0.9,0.0007,0.039,7,,1.8,88.8,51,0.61,0.79,0.3,27824
+"Babyfood, cereal, with eggs, strained","Something Else",2.2,0.027,0.038,,0.0008,0.044,8,,1.5,87.2,58,0.49,0.61,0.33,27825
+"Babyfood, cherry cobbler, junior","Something Else",0.3,0.005,0,0.2,0.009300000000000001,0.045,19.2,10.39,0.1,79.8,78,0.02,0.02,0.03,27826
+"Babyfood, cookie, baby, fruit","Something Else",6.8,0.083,0.009,3.4,0.0015,0.425,73.7,24.2,12.6,5.7,435,2.7,4.865,4.334,27827
+"Babyfood, cookies","Something Else",11.8,0.101,0.357,0.2,0.007,0.501,67.1,24.2,13.2,5.9,433,2.352,5.99,2.878,27828
+"Babyfood, cookies, arrowroot","Something Else",7.6,0.032,0.319,0.2,0.0055,0.156,71.1,,14.3,5.6,442,1.048,7.922,0.591,27829
+"Babyfood, corn and sweet potatoes, strained","Something Else",1.26,0.018,0.014,1.8,0.005,0.154,15.23,4,0.28,82.62,68,0.053,0.071,0.123,27830
+"Babyfood, crackers, vegetable","Something Else",8.4,0.041,0.571,4,0.0505,0.245,66.85,13,19.6,2,477,1.966,15.779,1.022,27831
+"Babyfood, dessert, banana pudding, strained","Something Else",1,0.011,0.054,0.8,0.012,0.09,14.14,10.55,0.8,83.5,68,0.264,0.277,0.111,27832
+"Babyfood, dessert, banana yogurt, strained","Something Else",1.1,0.03,0.014,0.5,0.013900000000000001,0.1,17.4,3.95,0.52,80.7,79,0.37,0.12,0.03,27833
+"Babyfood, dessert, blueberry yogurt, strained","Something Else",0.5,0.025,0.014,0.4,0.0124,0.062,17.05,13.62,0.7,81.4,77,0.452,0.192,0.019,27834
+"Babyfood, dessert, cherry vanilla pudding, junior","Something Else",0.2,0.005,0,0.3,0.0011,0.033,18.4,16.98,0.2,81,69,0.058,0.07,0.036,27835
+"Babyfood, dessert, cherry vanilla pudding, strained","Something Else",0.2,0.005,0,0.3,0.0011,0.034,17.8,9.15,0.3,81.5,68,0.087,0.105,0.053,27836
+"Babyfood, dessert, custard pudding, vanilla, junior","Something Else",1.76,0.054,0.026,0.2,0.0004,0.068,17.58,12.2,0.98,79.31,86,0.325,0.364,0.128,27837
+"Babyfood, dessert, custard pudding, vanilla, strained","Something Else",1.6,0.055,0,,0.0008,0.066,16,11.5,2,79.9,85,1.01,0.68,0.16,27838
+"Babyfood, dessert, dutch apple, junior","Something Else",0.2,0.003,0.003,1.4,0.018,0.067,19.29,17.89,0.16,80.32,79,0.025,0.006,0.045,27839
+"Babyfood, dessert, dutch apple, strained","Something Else",0.2,0.005,0,1.4,0.0214,0.033,19.74,17.89,0.4,79.5,75,0.19,0.08,0.01,27840
+"Babyfood, dessert, fruit dessert, without ascorbic acid, junior","Something Else",0.3,0.009,0,0.6,0.003,0.095,17.2,12,,82.2,63,,,,27841
+"Babyfood, dessert, fruit dessert, without ascorbic acid, strained","Something Else",0.3,0.009,0,0.6,0.0025,0.094,16,12.6,,83.4,59,,,,27842
+"Babyfood, dessert, fruit pudding, orange, strained","Something Else",1.1,0.032,0.02,0.6,0.0091,0.086,17.7,,0.9,79.8,80,0.545,0.257,0.038,27843
+"Babyfood, dessert, fruit pudding, pineapple, strained","Something Else",1.3,0.031,0,0.7,0.0272,0.081,20.3,10.28,0.3,77.6,81,0.099,0.109,0.041,27844
+"Babyfood, dessert, peach cobbler, junior","Something Else",0.3,0.004,0,0.7,0.0205,0.056,18.3,11.89,,81.2,67,,,,27845
+"Babyfood, dessert, peach cobbler, strained","Something Else",0.3,0.004,0.007,0.7,0.0205,0.054,17.8,10.62,,81.8,65,,,,27846
+"Babyfood, dessert, peach yogurt","Something Else",0.9,0.027,0.014,0.4,0.011699999999999999,0.102,17.6,6.63,0.18,80.87,76,0.117,0.048,0.005,27847
+"Babyfood, dessert, tropical fruit, junior","Something Else",0.2,0.01,0.007,,0.0188,0.058,16.4,,,83.2,60,,,,27848
+"Babyfood, dinner, apples and chicken, strained","Something Else",2.16,0.018,0.012,1.8,0.0002,0.095,10.87,7.9,1.38,85.4,65,0.347,0.411,0.35,27849
+"Babyfood, dinner, beef and rice, toddler","Something Else",5,0.011,0.032,,0.0039,0.12,8.8,,2.9,81.9,82,,,,27850
+"Babyfood, dinner, beef lasagna, toddler","Something Else",4.2,0.018,0.041,,0.0019,0.122,10,,2.1,82.3,77,,,,27851
+"Babyfood, dinner, beef noodle, junior","Something Else",2.5,0.008,0.026,1.1,0.0014,0.046,7.3,1.45,1.9,87.8,57,0.766,0.838,0.094,27852
+"Babyfood, dinner, beef noodle, strained","Something Else",2.44,0.01,0.015,1.3,0.0001,0.087,8.18,1.42,2.26,86.84,63,0.937,0.941,0.141,27853
+"Babyfood, dinner, beef stew, toddler","Something Else",5.1,0.009,0.106,1.1,0.003,0.142,5.5,1.39,1.2,86.9,51,0.58,0.44,0.1,27854
+"Babyfood, dinner, beef with vegetables","Something Else",2.03,0.019,0.038,1.8,0,0.127,6.36,2.16,6.93,84.3,96,2.84,3.12,0.9,27855
+"Babyfood, dinner, broccoli and chicken, junior","Something Else",3.59,0.037,0.017,1.4,0.0177,0.17,6.34,1.43,2.48,86.92,62,0.51,0.77,0.43,27856
+"Babyfood, dinner, chicken and noodle with vegetables, toddler","Something Else",3.8,0.011,0.235,0.6,0.0017,0.095,8.89,0.82,1.7,85.3,66,0.461,0.632,0.392,27857
+"Babyfood, dinner, chicken and rice","Something Else",1.6,0.018,0.025,1.1,0.001,0.06,9.2,0.55,0.9,88,51,0.211,0.392,0.188,27858
+"Babyfood, dinner, chicken noodle, junior","Something Else",2.37,0.021,0.035,0.9,0.0001,0.039,8.79,1.07,1.18,87.25,55,0.338,0.467,0.272,27859
+"Babyfood, dinner, chicken noodle, strained","Something Else",2.69,0.027,0.038,2.1,0.0001,0.139,9.08,2.5,2.06,85.64,66,0.595,0.854,0.461,27860
+"Babyfood, dinner, chicken soup, strained","Something Else",1.6,0.037,0.016,1.1,0.001,0.066,7.2,1.72,1.7,89.1,50,0.278,0.425,0.9,27861
+"Babyfood, dinner, chicken stew, toddler","Something Else",5.2,0.036,0.025,0.6,0.0019,0.092,6.4,1.68,3.7,83.3,78,1.1,1.7,0.77,27862
+"Babyfood, dinner, macaroni and cheese, junior","Something Else",2.6,0.051,0.266,0.3,0.0013,0.044,8.2,1.32,2,86.5,61,1.175,0.534,0.132,27863
+"Babyfood, dinner, macaroni and cheese, strained","Something Else",3.14,0.066,0.119,0.7,0.0001,0.067,8.95,1.27,2.11,85.25,67,1.291,0.581,0.103,27864
+"Babyfood, dinner, macaroni and tomato and beef, junior","Something Else",2.5,0.014,0.035,1.1,0.0015,0.072,9.4,2.43,1.1,86.7,59,0.411,0.447,0.079,27865
+"Babyfood, dinner, macaroni and tomato and beef, strained","Something Else",2.36,0.017,0.038,1.2,0.0003,0.112,9.45,2.09,1.47,86.34,61,0.486,0.594,0.193,27866
+"Babyfood, dinner, macaroni, beef and tomato sauce, toddler","Something Else",4.34,0.012,0.035,1.1,0.0019,0.148,11.53,0.37,1.9,81.81,81,0.705,0.782,0.14,27867
+"Babyfood, dinner, mixed vegetable, junior","Something Else",1,0.017,0.038,,0.0033,0.112,8,,,90.6,33,,,,27868
+"Babyfood, dinner, mixed vegetable, strained","Something Else",1.2,0.022,0.038,,0.0028,0.121,9.5,,0.1,88.7,41,,,,27869
+"Babyfood, dinner, pasta with vegetables","Something Else",1.7,0.014,0.011,1.5,0.0029,0.133,8.4,1.2,2.1,87.3,60,1.23,0.58,0.144,27870
+"Babyfood, dinner, potatoes with cheese and ham, toddler","Something Else",3.5,0.053,0.205,1.2,0.0001,0.143,11.97,0.8,2,81.5,78,1.1,0.733,0.163,27871
+"Babyfood, dinner, spaghetti and tomato and meat, junior","Something Else",2.57,0.015,0.03,1.1,0.0002,0.122,11.42,2.72,1.37,84.17,68,0.543,0.497,0.185,27872
+"Babyfood, dinner, spaghetti and tomato and meat, toddler","Something Else",5.3,0.022,0.239,,0.0040999999999999995,0.163,10.8,,1,81.6,75,,,,27873
+"Babyfood, dinner, sweet potatoes and chicken, strained","Something Else",2.51,0.03,0.022,1.3,0,0.2,11.04,5.37,2.17,83.7,74,0.572,0.98,0.48,27874
+"Babyfood, dinner, turkey and rice, junior","Something Else",2.37,0.024,0.023,1,0.0003,0.086,9.57,1.25,0.92,86.64,56,0.239,0.304,0.233,27875
+"Babyfood, dinner, turkey and rice, strained","Something Else",2.27,0.018,0.019,0.9,0.0002,0.091,7.94,1.66,1.24,88.22,52,0.338,0.446,0.308,27876
+"Babyfood, dinner, turkey, rice, and vegetables, toddler","Something Else",3.8,0.011,0.276,0.8,0.0003,0.107,7.5,0.66,1.6,86.3,60,0.5,0.555,0.309,27877
+"Babyfood, dinner, vegetables and bacon, strained","Something Else",1.92,0.014,0.049,1.7,0.0003,0.116,8.81,1.77,2.95,85.75,69,1.063,1.347,0.377,27878
+"Babyfood, dinner, vegetables and beef, junior","Something Else",2.21,0.017,0.031,1.3,0.0002,0.145,8.84,2.34,3.6,84.94,77,1.367,1.289,0.298,27879
+"Babyfood, dinner, vegetables and beef, strained","Something Else",2.21,0.017,0.031,1.3,0.0002,0.145,8.84,2.34,3.6,84.94,77,0.87,0.82,0.19,27880
+"Babyfood, dinner, vegetables and chicken, junior","Something Else",2.04,0.027,0.034,1.1,0.0002,0.083,8.66,1.46,1.12,87.76,53,0.302,0.402,0.269,27881
+"Babyfood, dinner, vegetables and dumplings and beef, junior","Something Else",2.1,0.014,0.052,,0.0008,0.047,8,,0.8,88.6,48,,,,27882
+"Babyfood, dinner, vegetables and dumplings and beef, strained","Something Else",2,0.014,0.049,,0.0008,0.046,7.7,,0.9,88.9,48,,,,27883
+"Babyfood, dinner, vegetables and ham, junior","Something Else",2.02,0.014,0.045,1,0.0011,0.097,8.64,0.99,1.89,87,60,0.483,0.811,0.448,27884
+"Babyfood, dinner, vegetables and ham, strained","Something Else",2.19,0.016,0.016,1.6,0.0016,0.141,7.8,1.37,2.14,87.47,59,0.764,0.963,0.234,27885
+"Babyfood, dinner, vegetables and lamb, junior","Something Else",2.1,0.013,0.013,1.1,0.0017,0.095,7.1,0.94,1.7,88.6,51,0.696,0.69,0.154,27886
+"Babyfood, dinner, vegetables and lamb, strained","Something Else",2,0.012,0.02,1.1,0.0012,0.094,6.9,0.94,2,88.6,52,0.828,0.822,0.167,27887
+"Babyfood, dinner, vegetables and noodles and turkey, junior","Something Else",1.8,0.032,0.017,1.1,0.0008,0.073,7.6,,1.5,88.7,52,,,,27888
+"Babyfood, dinner, vegetables and noodles and turkey, strained","Something Else",1.2,0.032,0.021,1.1,0.0008,0.063,6.8,,1.2,90.3,44,,,,27889
+"Babyfood, dinner, vegetables and turkey, junior","Something Else",1.72,0.016,0.045,0.9,0.0004,0.098,7.55,1.36,1.74,88.5,53,0.485,0.687,0.391,27890
+"Babyfood, dinner, vegetables and turkey, strained","Something Else",2.32,0.027,0.02,1.5,0.0007,0.102,7.62,1.54,0.9,88.82,48,0.236,0.294,0.241,27891
+"Babyfood, dinner, vegetables and turkey, toddler","Something Else",4.8,0.046,0.041,,0.0034,0.166,8.1,,3.4,82.3,80,,,,27892
+"Babyfood, dinner, vegetables chicken, strained","Something Else",2.47,0.027,0.024,2.1,0.0001,0.158,8.42,1.58,1.73,86.9,59,0.496,0.712,0.374,27893
+"Babyfood, dinner, vegetables, noodles and chicken, junior","Something Else",1.7,0.026,0.026,1.1,0.0008,0.059,9.1,,2.2,86.2,64,,,,27894
+"Babyfood, dinner, vegetables, noodles and chicken, strained","Something Else",2,0.028,0.02,1.1,0.0007,0.055,7.9,,2.5,87.2,63,,,,27895
+"Babyfood, fruit and vegetable, apple and sweet potato","Something Else",0.3,0.008,0.003,1.4,0.0064,0.149,15.3,11.6,0.22,84,64,0.041,0.008,0.079,27896
+"Babyfood, fruit dessert, mango with tapioca","Something Else",0.3,0.008,0.004,1.1,0.0158,0.066,19,13,0.2,80,70,0.039,0.06,0.03,27897
+"Babyfood, fruit supreme dessert","Something Else",0.5,0.006,0.001,2,0.0127,0.129,17.18,14.87,0.2,81.6,73,0.03,0.025,0.068,27898
+"Babyfood, fruit, apple and blueberry, junior","Something Else",0.2,0.005,0.001,1.8,0.013900000000000001,0.065,16.6,8.83,0.2,82.8,62,0.024,0.019,0.073,27899
+"Babyfood, fruit, apple and blueberry, strained","Something Else",0.2,0.004,0.001,1.8,0.027800000000000002,0.069,16.3,13.93,0.2,83.1,61,0.024,0.019,0.073,27900
+"Babyfood, fruit, apple and raspberry, junior","Something Else",0.2,0.005,0,2.1,0.0289,0.072,15.4,12.96,0.2,84,58,0.032,0.008,0.063,27901
+"Babyfood, fruit, apple and raspberry, strained","Something Else",0.2,0.005,0,2.1,0.0268,0.08,15.6,12.96,0.2,83.8,58,0.033,0.008,0.062,27902
+"Babyfood, fruit, applesauce and apricots, junior","Something Else",0.2,0.006,0,1.8,0.0179,0.109,12.4,8.72,0.2,86.9,47,0.028,0.03,0.051,27903
+"Babyfood, fruit, applesauce and apricots, strained","Something Else",0.2,0.006,0,1.8,0.0189,0.12,11.64,9.25,0.2,87.7,44,0.024,0.037,0.045,27904
+"Babyfood, fruit, applesauce and cherries, junior","Something Else",,0.001,0.001,1.1,0.0428,0.132,14.1,10.61,,85.6,51,,,,27905
+"Babyfood, fruit, applesauce and cherries, strained","Something Else",,0.001,0.001,1.1,0.0428,0.132,14.1,10.81,,85.63,51,,,,27906
+"Babyfood, fruit, applesauce and pineapple, junior","Something Else",0.1,0.004,0.002,1.5,0.0268,0.076,10.5,,0.1,89.1,39,0.011,0.009,0.032,27907
+"Babyfood, fruit, applesauce and pineapple, strained","Something Else",0.1,0.004,0.002,1.5,0.0281,0.078,10.1,,0.1,89.5,37,0.01,0.009,0.032,27908
+"Babyfood, fruit, applesauce with banana, junior","Something Else",0.37,0.005,0.003,1.6,0.0173,0.131,16.16,4.35,0.1,83.14,66,0.04,0.01,0.05,27909
+"Babyfood, fruit, applesauce, junior","Something Else",,0.005,0.001,1.7,0.0378,0.077,10.3,8.48,,89.5,37,,,,27910
+"Babyfood, fruit, applesauce, strained","Something Else",0.2,0.004,0,1.7,0.038299999999999994,0.071,10.8,9.87,0.2,88.6,41,0.032,0.008,0.056,27911
+"Babyfood, fruit, apricot with tapioca, junior","Something Else",0.3,0.008,0,1.5,0.0179,0.125,17.3,1.4,,82.1,63,,,,27912
+"Babyfood, fruit, apricot with tapioca, strained","Something Else",0.3,0.009,0,1.5,0.0216,0.121,16.3,1.41,,83.1,60,,,,27913
+"Babyfood, fruit, bananas and pineapple with tapioca, junior","Something Else",0.2,0.007,0,1.6,0.0212,0.078,18.4,8.41,0.1,81.1,68,0.036,0.009,0.02,27914
+"Babyfood, fruit, bananas and pineapple with tapioca, strained","Something Else",0.2,0.007,0,1.6,0.0192,0.068,17.8,10.73,,81.7,65,,,,27915
+"Babyfood, fruit, bananas with apples and pears, strained","Something Else",0.9,0.005,0.002,1.4,0.013900000000000001,0.233,19.31,12.76,0.22,79,83,0.106,0.028,0.085,27916
+"Babyfood, fruit, bananas with tapioca, junior","Something Else",0.4,0.008,0,1.6,0.0257,0.108,17.8,7.1,0.2,81.5,67,0.076,0.018,0.037,27917
+"Babyfood, fruit, bananas with tapioca, strained","Something Else",0.4,0.005,0,1.6,0.0167,0.088,15.3,0.38,0.1,84,56,0.035,0.01,0.019,27918
+"Babyfood, fruit, guava and papaya with tapioca, strained","Something Else",0.2,0.007,0.004,,0.0809,0.074,17,,0.1,82.5,63,,,,27919
+"Babyfood, fruit, papaya and applesauce with tapioca, strained","Something Else",0.2,0.007,0.005,1.4,0.11309999999999999,0.079,18.9,,0.1,80.6,70,,,,27920
+"Babyfood, fruit, peaches, junior","Something Else",0.94,0.004,0.004,1.3,0.0461,0.195,14.48,11.5,0.33,83.65,65,0.02,0.01,0.04,27921
+"Babyfood, fruit, peaches, strained","Something Else",0.94,0.004,0.004,1.3,0.0461,0.195,14.48,11.5,0.33,83.65,65,0.02,0.01,0.04,27922
+"Babyfood, fruit, pears and pineapple, junior","Something Else",0.3,0.01,0,2.6,0.016800000000000002,0.118,11.4,7.36,0.2,87.8,44,0.013,0.031,0.058,27923
+"Babyfood, fruit, pears and pineapple, strained","Something Else",0.3,0.01,0,2.6,0.0275,0.116,10.9,7.79,0.1,88.5,41,0.007,0.016,0.029,27924
+"Babyfood, fruit, pears, junior","Something Else",0.3,0.008,0.001,3.6,0.022,0.115,11.6,7.34,0.1,87.8,44,0.006,0.021,0.023,27925
+"Babyfood, fruit, pears, strained","Something Else",0.3,0.008,0.001,3.6,0.0245,0.13,10.8,6.98,0.2,88.4,42,0.012,0.042,0.046,27926
+"Babyfood, fruit, plums with tapioca, without ascorbic acid, junior","Something Else",0.1,0.006,0,1.2,0.0008,0.083,20.5,13.64,,79.2,74,,,,27927
+"Babyfood, fruit, plums with tapioca, without ascorbic acid, strained","Something Else",0.1,0.006,0,1.2,0.0011,0.085,19.7,13.34,,80,71,,,,27928
+"Babyfood, fruit, prunes with tapioca, without ascorbic acid, junior","Something Else",0.6,0.015,0.002,2.7,0.0008,0.162,18.7,10.97,0.1,80.1,70,0.008,0.066,0.022,27929
+"Babyfood, fruit, prunes with tapioca, without ascorbic acid, strained","Something Else",0.6,0.015,0.005,2.7,0.0008,0.177,18.5,10.97,0.1,80.3,69,0.008,0.066,0.022,27930
+"Babyfood, fruit, tutti frutti, junior","Something Else",0.4,0.014,0.017,0.4,0.0072,0.047,16,9.41,0.4,82.9,69,0.11,0.148,0.061,27931
+"Babyfood, fruit, tutti frutti, strained","Something Else",0.4,0.015,0.025,0.6,0.0124,0.046,15.48,9.29,0.3,83.5,66,0.087,0.113,0.043,27932
+"Babyfood, green beans, dices, toddler","Something Else",1.2,0.027,0.037,1.3,0.0017,0.116,5.7,1.06,0.2,92.6,29,0.044,0.008,0.102,27933
+"Babyfood, juice treats, fruit medley, toddler","Something Else",,0.012,0.089,,0.008,0.054,86.68,57.4,,12.89,347,,,,27934
+"Babyfood, juice, apple","Something Else",,0.004,0.008,0.1,0.0579,0.091,11.7,10.7,0.1,88,47,0.018,0.002,0.031,27935
+"Babyfood, juice, apple - cherry","Something Else",0.2,0.007,0.004,0.3,0.032100000000000004,0.11,11.2,10.5,0.1,88.2,47,0.02,,0.03,27936
+"Babyfood, juice, apple and cherry","Something Else",0.1,0.005,0,0.1,0.0583,0.098,9.9,8.98,0.2,89.5,41,0.035,0.011,0.06,27937
+"Babyfood, juice, apple and grape","Something Else",0.1,0.006,0,0.1,0.0315,0.09,11.34,10.9,0.2,88.1,46,0.04,0.009,0.059,27938
+"Babyfood, juice, apple and peach","Something Else",0.2,0.003,0,0.1,0.0585,0.097,10.5,9.59,0.1,89,43,0.018,0.002,0.031,27939
+"Babyfood, juice, apple and plum","Something Else",0.1,0.005,0,0.1,0.0582,0.101,12.3,11.54,,87.3,49,,,,27940
+"Babyfood, juice, apple and prune","Something Else",0.2,0.009,0.008,0.1,0.0675,0.148,18.1,10.58,0.1,81.3,72,0.018,0.006,0.031,27941
+"Babyfood, juice, apple, with calcium","Something Else",0.06,0.127,0.003,0.4,0.0212,0.092,11.1,9,0.1,88.3,46,0.018,0.005,0.032,27942
+"Babyfood, juice, apple-sweet potato","Something Else",0.3,0.015,0.005,0.5,0.0341,0.137,11.4,9.6,0.1,87.9,48,0.03,0.01,0.05,27943
+"Babyfood, juice, fruit punch, with calcium","Something Else",0.2,0.064,0.004,0.4,0.0212,0.086,12.7,10.6,0.1,86.5,52,0.02,0.004,0.029,27944
+"Babyfood, juice, mixed fruit","Something Else",0.1,0.008,0.008,0.1,0.0636,0.101,11.7,8.46,0.1,87.9,47,0.015,0.006,0.039,27945
+"Babyfood, juice, orange","Something Else",0.6,0.012,0,0.1,0.0625,0.184,10.2,8.26,0.3,88.5,45,0.035,0.05,0.06,27946
+"Babyfood, juice, orange and apple","Something Else",0.4,0.01,0.003,,0.07690000000000001,0.138,10.1,,0.2,88.9,43,,,,27947
+"Babyfood, juice, orange and apple and banana","Something Else",0.4,0.005,0,0.1,0.032100000000000004,0.134,11.5,10.03,0.1,87.6,47,0.016,0.007,0.027,27948
+"Babyfood, juice, orange and apricot","Something Else",0.8,0.006,0.006,0.1,0.0859,0.199,10.9,,0.1,87.8,46,0.011,0.022,0.02,27949
+"Babyfood, juice, orange and banana","Something Else",0.7,0.017,0.003,,0.034,0.2,11.9,,0.1,86.9,50,,,,27950
+"Babyfood, juice, orange and pineapple","Something Else",0.5,0.008,0.002,0.1,0.053399999999999996,0.141,11.7,,0.1,87.3,48,0.01,0.014,0.024,27951
+"Babyfood, juice, orange-carrot","Something Else",0.5,0.016,0.01,0.4,0.0341,0.174,9.9,8.4,0.1,89.1,43,0.01,0.01,0.03,27952
+"Babyfood, juice, pear","Something Else",,0.012,0.008,0.1,0.0338,0.13,11.86,7.28,,87.9,47,,,,27953
+"Babyfood, juice, prune and orange","Something Else",0.6,0.012,0.002,,0.0638,0.181,16.8,,0.3,81.9,70,,,,27954
+"Babyfood, macaroni and cheese, toddler","Something Else",3.5,0.102,0.112,0.5,0,0.018,11.2,0.79,2.6,81.7,82,1.53,0.7,0.17,27955
+"Babyfood, mashed cheddar potatoes and broccoli, toddlers","Something Else",1.13,0.038,0.176,0.9,0.0014,0.118,7.64,1.18,1.47,88.78,48,0.632,0.29,0.291,27956
+"Babyfood, meat, beef with vegetables, toddler","Something Else",3.5,0.011,0.026,0.5,0.0025,0.168,8.72,1.18,2.1,85.23,68,0.847,0.92,0.108,27957
+"Babyfood, meat, beef, junior","Something Else",12.03,0.005,0.041,,0.0021000000000000003,0.187,2.43,,2.52,82.44,81,1.18,0.95,0.16,27958
+"Babyfood, meat, beef, strained","Something Else",12.03,0.005,0.041,,0.0021000000000000003,0.187,2.43,,2.52,82.44,81,1.18,0.95,0.16,27959
+"Babyfood, meat, chicken sticks, junior","Something Else",14.6,0.073,0.408,0.2,0.0017,0.106,1.5,1.4,14.4,68.3,188,4.094,6.267,2.986,27960
+"Babyfood, meat, chicken, junior","Something Else",14,0.055,0.049,,0.0015,0.122,,,9.6,76,146,2.47,4.33,2.33,27961
+"Babyfood, meat, chicken, strained","Something Else",13.7,0.064,0.049,,0.0017,0.141,0.1,,7.9,77.5,130,2.03,3.56,1.92,27962
+"Babyfood, meat, ham, junior","Something Else",11.3,0.005,0.044,,0.0021000000000000003,0.21,3.7,,3.8,80.5,97,1.271,1.804,0.516,27963
+"Babyfood, meat, ham, strained","Something Else",11.3,0.006,0.044,,0.0021000000000000003,0.204,3.7,,3.8,80.5,97,1.267,1.803,0.51,27964
+"Babyfood, meat, lamb, junior","Something Else",15.2,0.007,0.042,,0.0017,0.211,,,5.2,79.6,112,2.56,2.06,0.22,27965
+"Babyfood, meat, lamb, strained","Something Else",14.07,0.007,0.043,,0.0012,0.193,0.85,,3.41,81.06,87,1.65,1.27,0.31,27966
+"Babyfood, meat, meat sticks, junior","Something Else",13.4,0.034,0.423,0.2,0.0024,0.114,1.1,0.8,14.6,69.5,184,5.82,6.48,1.59,27967
+"Babyfood, meat, pork, strained","Something Else",14,0.005,0.042,,0.0018,0.223,,,7.1,78.4,124,2.4,3.58,0.78,27968
+"Babyfood, meat, turkey sticks, junior","Something Else",13.7,0.083,0.44,0.5,0.0015,0.12,1.4,1.4,14.2,69.8,188,4.143,4.671,3.615,27969
+"Babyfood, meat, turkey, junior","Something Else",11.5,0.041,0.049,,0,0.135,1.4,,6.2,80.32,111,1.641,2.384,1.741,27970
+"Babyfood, meat, turkey, strained","Something Else",11.5,0.041,0.049,,0.0022,0.135,1.4,,6.2,80.32,111,1.641,2.384,1.741,27971
+"Babyfood, meat, veal, strained","Something Else",13.12,0.006,0.039,,0,0.17,1.51,,2.45,82.37,81,1.063,1.054,0.157,27972
+"Babyfood, mixed fruit juice with low fat yogurt","Something Else",2.4,0.081,0.036,0.4,0.0339,0.137,14.68,10.8,0.8,81.5,76,0.517,0.219,0.022,27973
+"Babyfood, mixed fruit yogurt, strained","Something Else",0.8,0.028,0.016,0.4,0.011699999999999999,0.062,16.23,11.74,0.8,81.8,75,0.517,0.219,0.022,27974
+"Babyfood, oatmeal cereal with fruit, dry, instant, toddler","Something Else",10.5,0.286,0,7.8,0.0027,0.346,74.1,11.09,7.05,5.4,402,1.572,3.008,2.29,27975
+"Babyfood, peaches, dices, toddler","Something Else",0.5,0.006,0.009,0.8,0.0313,0.083,11.8,9.49,0.2,87.4,51,0.016,0.046,0.078,27976
+"Babyfood, pears, dices, toddler","Something Else",0.3,0.01,0.006,1.2,0.0313,0.051,13.6,8.66,0.1,85.6,57,0.01,0.043,0.046,27977
+"Babyfood, peas and brown rice","Something Else",3.4,0.014,0.006,2.5,0.003,0.093,11.49,2.88,0.5,84.1,64,0.1,0.18,0.18,27978
+"Babyfood, peas, dices, toddler","Something Else",3.9,0.021,0.048,3.9,0.006,0.081,10.3,4.13,0.8,84.6,64,0.14,0.07,0.37,27979
+"Babyfood, plums, bananas and rice, strained","Something Else",1.1,0.003,0,1.3,0.0123,0.265,12.7,9.3,0.3,85.6,57,0.06,0.12,0.07,27980
+"Babyfood, potatoes, toddler","Something Else",1,0.004,0.057,0.9,0.0105,0.11,11.73,0.91,0.1,86.8,52,0.015,0.002,0.025,27981
+"Babyfood, pretzels","Something Else",10.8,0.025,0.269,2.3,0.0038,0.137,82.2,3.08,2,4,397,0.316,0.188,0.833,27982
+"Babyfood, prunes, without vitamin c, strained","Something Else",1,0.021,0.001,2.7,0.0013,0.306,23.52,21.21,0.2,74.3,100,0.02,0.13,0.04,27983
+"Babyfood, ravioli, cheese filled, with tomato sauce","Something Else",3.6,0.054,0.282,0.1,0.0001,0.032,16.3,0.59,2.2,76.5,99,0.96,0.57,0.48,27984
+"Babyfood, rice and apples, dry","Something Else",6.7,0.85,0.016,3,0,0.41,86.89,3.22,2.4,3.2,396,0.503,0.615,0.92,27985
+"Babyfood, teething biscuits","Something Else",10.7,0.263,0.227,1.4,0.0091,0.323,76.4,12.65,4.2,6.4,391,1.206,1.702,0.998,27986
+"Babyfood, vegetable and brown rice, strained","Something Else",1.9,0.014,0.014,1.1,0.0003,0.135,12.1,2.39,1.5,84.1,69,0.14,0.97,0.32,27987
+"Babyfood, vegetable, butternut squash and corn","Something Else",2,0.032,0.005,2,0.004900000000000001,0.352,9.26,2.93,0.6,87.3,50,0.095,0.166,0.28,27988
+"Babyfood, vegetable, green beans and potatoes","Something Else",2.2,0.06,0.018,1.4,0.0011,0.148,9,2.35,1.9,86.2,62,1.117,0.539,0.132,27989
+"Babyfood, vegetables, beets, strained","Something Else",1.3,0.014,0.083,1.9,0.0024,0.182,7.7,6.09,0.1,90.1,34,0.016,0.019,0.036,27990
+"Babyfood, vegetables, carrots, junior","Something Else",0.8,0.023,0.049,1.7,0.0055,0.202,7.2,3.16,0.2,91,32,0.036,0.009,0.093,27991
+"Babyfood, vegetables, carrots, strained","Something Else",0.8,0.022,0.069,1.7,0.0057,0.196,6,3.64,0.1,92.3,26,0.018,0.004,0.047,27992
+"Babyfood, vegetables, corn, creamed, junior","Something Else",1.4,0.004,0.052,2.1,0.0022,0.081,16.25,1.48,0.4,81.4,65,0.074,0.116,0.178,27993
+"Babyfood, vegetables, corn, creamed, strained","Something Else",1.4,0.02,0.043,2.1,0.0021000000000000003,0.09,14.1,1.23,0.4,83.6,57,0.076,0.116,0.176,27994
+"Babyfood, vegetables, garden vegetable, strained","Something Else",2.3,0.028,0.031,1.5,0.0057,0.168,6.8,2.57,0.2,90,32,0.035,0.011,0.09,27995
+"Babyfood, vegetables, green beans, junior","Something Else",1.2,0.065,0.005,1.9,0.008400000000000001,0.128,5.8,1.08,0.1,92.5,24,0.023,0.004,0.052,27996
+"Babyfood, vegetables, green beans, strained","Something Else",1.2,0.039,0.007,2.2,0.0003,0.146,6.29,1.88,0.17,91.85,27,0.039,,0.116,27997
+"Babyfood, vegetables, mix vegetables junior","Something Else",1.4,0.011,0.036,1.5,0.0025,0.17,8.2,1.78,0.4,89.4,36,0.079,0.025,0.186,27998
+"Babyfood, vegetables, mix vegetables strained","Something Else",1.2,0.013,0,1.5,0.0017,0.127,8.05,1.57,0.5,89.8,36,0.089,0.118,0.194,27999
+"Babyfood, vegetables, peas, strained","Something Else",3.27,0.018,0.005,2,0.0006,0.106,8.36,2.01,0.43,87.52,50,0.07,0.05,0.2,28000
+"Babyfood, vegetables, spinach, creamed, strained","Something Else",2.5,0.089,0.049,1.8,0.0087,0.191,5.7,2.33,1.3,89.6,37,0.702,0.332,0.133,28001
+"Babyfood, vegetables, squash, junior","Something Else",0.81,0.024,0.005,0.9,0.0003,0.185,5.73,3.24,0.2,92.66,24,0.02,0.02,0.04,28002
+"Babyfood, vegetables, squash, strained","Something Else",0.81,0.024,0.005,0.9,0.0003,0.185,5.73,3.37,0.2,92.66,28,0.02,0.02,0.04,28003
+"Babyfood, vegetables, sweet potatoes strained","Something Else",1.1,0.016,0.022,1.5,0.0099,0.263,13.2,4.05,0.1,84.8,57,0.021,0.004,0.044,28004
+"Babyfood, vegetables, sweet potatoes, junior","Something Else",1.1,0.016,0.018,1.5,0.0096,0.243,14,4.24,0.1,84.1,60,0.021,0.004,0.044,28005
+"Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added DHA","Something Else",3.4,0.107,0.041,0.3,0.0014,0.149,13.22,11.46,3.53,79.16,98,1.84,0.916,0.367,28006
+"Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added iron","Something Else",3.05,0.098,0.038,0.6,0.0036,0.143,13,11.46,3.08,80.21,92,1.582,0.74,0.405,28007
+"Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed (formerly ROSS)","Something Else",2.86,0.093,0.036,,0.0095,0.125,11.15,10.5,4.77,80.47,99,1.256,1.936,1.068,28008
+"Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed, with iron and fiber (formerly ROSS)","Something Else",2.8,0.092,0.036,0.5,0.0096,0.124,11.28,7.6,4.7,80.47,99,1.256,1.936,1.067,28009
+"Child formula, MEAD JOHNSON, PORTAGEN, with iron, powder, not reconstituted","Something Else",16.5,0.44,0.26,,0.038,0.59,54.8,54,22,3,483,19.186,0.683,1.609,28010
+"Child formula, MEAD JOHNSON, PORTAGEN, with iron, prepared from powder","Something Else",3.33,0.088,0.052,,0.0076,0.118,8.57,7.4,4.48,82.86,88,3.953,0.143,0.333,28011
+"Fluid replacement, electrolyte solution (include PEDIALYTE)","Something Else",,0.01,0.101,,0,0.077,2.45,2.45,,96.44,10,,,,28012
+"Gerber graduates Fruit Strips Real Fruit Bars","Something Else",0.82,0.018,0.014,7.8,0.1799,0.312,76.61,68.65,2.24,19.09,330,0.361,0.091,0.658,28013
+"Infant Formula, MEAD JOHNSON, ENFAMIL GENTLEASE LIPIL, with iron, prepared from powder","Something Else",1.52,0.053,0.021,,0.0079,0.071,6.39,6.44,3.5,88.4,63,1.5,1.3,0.7,28014
+"Infant Formula, MEAD JOHNSON, ENFAMIL, ENFACARE LIPIL, ready-to-feed, with ARA and DHA","Something Else",2,0.086,0.025,,0.011300000000000001,0.075,7.4,7.4,3.8,86,71,1.578,1.33,0.862,28015
+"Infant formula, ABBOTT NUTRITION, ALIMENTUM ADVANCE, with iron, powder, not reconstituted, with DHA and ARA (formerly ROSS)","Something Else",13.99,0.534,0.224,,0.0458,0.598,51.91,34.18,28.19,1.5,517,14.282,2.276,8.877,28016
+"Infant formula, ABBOTT NUTRITION, SIMILAC NATURAL CARE, ADVANCE, ready-to-feed, with ARA and DHA (formerly ROSS)","Something Else",2.12,0.163,0.034,,0.0289,0.101,8.2,8.2,4.24,85.07,78,2.544,0.402,0.842,28017
+"Infant formula, ABBOTT NUTRITION, SIMILAC NEOSURE, ready-to-feed, with ARA and DHA (formerly ROSS)","Something Else",1.92,0.072,0.023,,0.0103,0.097,6.94,6.9,3.77,87,69,2.447,0.387,0.844,28018
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ADVANCE, with iron, liquid concentrate, not reconstituted (formerly ROSS)","Something Else",2.64,0.099,0.031,,0.0115,0.134,13.52,13.52,6.89,76.16,127,2.401,2.551,1.555,28019
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ADVANCE, with iron, powder, not reconstituted (formerly ROSS)","Something Else",10.89,0.41,0.126,,0.047299999999999995,0.552,54.73,54.73,28.87,2.25,522,9.873,10.491,6.396,28020
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ADVANCE, with iron, ready-to-feed (formerly ROSS)","Something Else",1.36,0.053,0.016,,0.005900000000000001,0.069,6.77,6.9,3.7,87.79,66,1.237,1.314,0.801,28021
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ALIMENTUM, ADVANCE, ready-to-feed, with ARA and DHA (formerly ROSS)","Something Else",1.8,0.069,0.029,,0.005900000000000001,0.077,6.77,4.4,3.63,87.32,67,1.838,0.294,1.126,28022
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ALIMENTUM, with iron, ready-to-feed (formerly ROSS)","Something Else",1.8,0.069,0.029,,0.005900000000000001,0.077,6.77,4.4,3.63,87.32,66,1.838,0.294,1.113,28023
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, ADVANCE with iron, liquid concentrate (formerly ROSS)","Something Else",3.13,0.134,0.056,,0.0115,0.138,13.21,13.1,6.98,75.81,128,2.262,2.66,1.625,28024
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, ADVANCE with iron, powder, not reconstituted (formerly ROSS)","Something Else",12.6,0.54,0.226,,0.046299999999999994,0.555,53.57,52.97,28.09,2.5,517,9.167,10.778,6.584,28025
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, ADVANCE with iron, ready-to-feed (formerly ROSS)","Something Else",1.61,0.069,0.029,,0.005900000000000001,0.071,6.7,6.7,3.59,87.54,66,1.166,1.371,0.838,28026
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, liquid concentrate (formerly ROSS)","Something Else",3.13,0.134,0.056,,0.0115,0.138,13.21,13.1,6.98,75.81,128,2.262,2.66,1.625,28027
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, powder, not reconstituted (formerly ROSS)","Something Else",12.6,0.54,0.226,,0.046299999999999994,0.555,53.57,52.97,28.09,2.5,517,9.167,10.778,6.584,28028
+"Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, ready-to-feed (formerly ROSS)","Something Else",1.61,0.069,0.029,,0.005900000000000001,0.071,6.7,6.7,3.59,87.54,66,1.166,1.371,0.838,28029
+"Infant formula, ABBOTT NUTRITION, SIMILAC, NEOSURE, powder, with ARA and DHA (formerly ROSS)","Something Else",14.42,0.541,0.17,,0.0772,0.731,51.75,52.02,28.33,2.25,520,9.871,10.492,6.66,28030
+"Infant formula, ABBOTT NUTRITION, SIMILAC, PM 60/40, powder not reconstituted (formerly ROSS)","Something Else",11.4,0.288,0.123,,0.046200000000000005,0.411,54.94,52.38,28.71,2.25,524,12.214,5.242,10.835,28031
+"Infant formula, ABBOTT NUTRITION, SIMILAC, SENSITIVE (LACTOSE FREE) ready-to-feed, with ARA and DHA (formerly ROSS)","Something Else",1.48,0.058,0.021,,0.006,0.074,7.04,7.4,3.74,87,68,2.43,0.384,0.832,28032
+"Infant formula, ABBOTT NUTRITION, SIMILAC, SENSITIVE, (LACTOSE FREE), liquid concentrate, with ARA and DHA (formerly ROSS)","Something Else",2.73,0.108,0.039,,0.0115,0.138,13.64,13.78,6.95,75.88,128,4.522,0.715,1.548,28033
+"Infant formula, ABBOTT NUTRITION, SIMILAC, SENSITIVE, (LACTOSE FREE), powder, with ARA and DHA (formerly ROSS)","Something Else",11.13,0.436,0.158,,0.0451,0.557,55.53,55.67,28.14,2.2,520,18.305,2.894,6.27,28034
+"Infant formula, ABBOTT NUTRITION, SIMILAC, SPECIAL CARE, ADVANCE 24, with iron, ready-to-feed, with ARA and DHA (formerly ROSS)","Something Else",1.8,0.141,0.034,,0.0291,0.101,8.73,8.3,3.26,85.61,71,2.12,0.324,0.737,28035
+"Infant formula, ABBOTT NUTRITION, SIMILAC, low iron, liquid concentrate, not reconstituted (formerly ROSS)","Something Else",2.64,0.099,0.031,,0.0115,0.134,13.76,13.76,6.89,76.16,127,2.401,2.551,1.555,28036
+"Infant formula, ABBOTT NUTRITION, SIMILAC, low iron, powder, not reconstituted (formerly ROSS)","Something Else",10.85,0.41,0.126,,0.047299999999999995,0.552,54.78,54.7,28.87,2.25,522,9.873,10.491,6.396,28037
+"Infant formula, ABBOTT NUTRITION, SIMILAC, low iron, ready-to-feed (formerly ROSS)","Something Else",1.36,0.051,0.016,,0.005900000000000001,0.069,6.93,6.93,3.55,87.79,65,1.237,1.314,0.801,28038
+"Infant formula, ABBOTT NUTRITION, SIMILAC, with iron, liquid concentrate, not reconstituted (formerly ROSS)","Something Else",2.64,0.099,0.031,,0.0115,0.134,13.76,13.76,6.89,76.16,127,2.401,2.551,1.555,28039
+"Infant formula, ABBOTT NUTRITION, SIMILAC, with iron, powder, not reconstituted (formerly ROSS)","Something Else",10.89,0.41,0.126,,0.047299999999999995,0.552,54.73,54.73,28.87,2.25,522,9.873,10.491,6.396,28040
+"Infant formula, ABBOTT NUTRITION, SIMILAC, with iron, ready-to-feed (formerly ROSS)","Something Else",1.36,0.051,0.016,,0.005900000000000001,0.069,6.92,6.9,3.55,87.79,65,1.237,1.314,0.801,28041
+"Infant formula, MEAD JOHNSON, ENFAMIL LIPIL, with iron, ready-to-feed, with ARA and DHA","Something Else",1.38,0.051,0.018,,0.0079,0.071,7.1,7.1,3.5,88.35,64,1.453,1.255,0.67,28042
+"Infant formula, MEAD JOHNSON, ENFAMIL, AR LIPIL, powder, with ARA and DHA","Something Else",12.73,0.397,0.204,,0.0611,0.55,56.03,56.03,25.97,3,509,10.942,9.292,5.124,28043
+"Infant formula, MEAD JOHNSON, ENFAMIL, AR LIPIL, ready-to-feed, with ARA and DHA","Something Else",1.71,0.053,0.027,,0.008199999999999999,0.074,7.53,6.44,3.49,87,68,1.453,1.255,0.67,28044
+"Infant formula, MEAD JOHNSON, ENFAMIL, ENFACARE LIPIL, powder, with ARA and DHA","Something Else",14,0.59,0.173,,0.079,0,54.6,51,26,2.5,508,10.8,9.1,5.9,28045
+"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE LIPIL, with iron, powder, with ARA and DHA","Something Else",10.9,0.43,0.156,,0.062,0.57,56.3,54.77,28,2.2,521,11.9,10.4,5.5,28046
+"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, LIPIL, with iron, liquid concentrate, not reconstituted, with ARA and DHA","Something Else",2.68,0.104,0.038,,0.015300000000000001,0.14,14.42,13.96,7.11,75.47,132,3.059,2.642,1.411,28047
+"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, ready-to-feed","Something Else",1.38,0.053,0.019,,0.0079,0.072,7.18,7.18,3.5,88.35,63,1.495,1.291,0.689,28048
+"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, with iron, liquid concentrate, not reconstituted","Something Else",2.68,0.104,0.038,,0.015300000000000001,0.14,14.42,13.96,6.79,75.47,130,2.906,2.509,1.283,28049
+"Infant formula, MEAD JOHNSON, ENFAMIL, LACTOFREE, with iron, powder, not reconstituted","Something Else",10.85,0.43,0.156,,0.062,0.58,56.35,57,28,2.2,521,12.02,10.43,5.26,28050
+"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, low iron, liquid concentrate, with ARA and DHA","Something Else",2.76,0.102,0.039,,0.0158,0.142,14.24,14.24,7.16,75.32,131,3.078,2.659,1.419,28051
+"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, low iron, powder, with ARA and DHA","Something Else",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,511,11.2,9.63,5.2,28052
+"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, low iron, ready to feed, with ARA and DHA","Something Else",1.38,0.051,0.018,,0.0079,0.071,7.18,7.18,3.5,88.35,64,1.453,1.255,0.67,28053
+"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, ready-to-feed, with ARA and DHA","Something Else",1.38,0.054,0.019,,0.0079,0.072,6.44,6.44,3.5,88.35,66,1.453,1.255,0.67,28054
+"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, with iron, liquid concentrate, with ARA and DHA","Something Else",2.76,0.102,0.035,,0.0158,0.142,14.34,14,6.96,75.34,131,3.08,2.656,1.418,28055
+"Infant formula, MEAD JOHNSON, ENFAMIL, LIPIL, with iron, powder, with ARA and DHA","Something Else",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,511,11.221,9.899,5.24,28056
+"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN LIPIL, with iron, powder, not reconstituted, with ARA and DHA","Something Else",13.9,0.47,0.23,,0.06,0.55,51,51,26,3,494,11.2,9.6,5.2,28057
+"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN LIPIL, with iron, ready to feed, with ARA and DHA","Something Else",1.83,0.062,0.031,,0.0079,0.072,6.81,5.13,3.5,87.38,66,1.453,1.255,0.67,28058
+"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, LIPIL, with iron, liquid concentrate not reconstituted, with ARA and DHA","Something Else",3.53,0.123,0.06,,0.015099999999999999,0.138,13.12,9.87,6.73,75.7,126,2.798,2.486,1.327,28059
+"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, with iron, liquid concentrate, not reconstituted","Something Else",3.53,0.12,0.06,,0.015099999999999999,0.138,13.12,13.08,6.73,75.7,127,2.879,2.493,1.159,28060
+"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, with iron, powder, not reconstituted","Something Else",14.2,0.47,0.23,,0.06,0.55,55,55,25,2.5,502,10.99,9.52,4.93,28061
+"Infant formula, MEAD JOHNSON, ENFAMIL, NUTRAMIGEN, with iron, ready-to-feed","Something Else",1.83,0.062,0.031,,0.0079,0.072,6.81,5.13,3.5,87.38,66,1.364,1.206,0.617,28062
+"Infant formula, MEAD JOHNSON, ENFAMIL, PROSOBEE LIPIL, with iron, powder, not reconstituted, with ARA and DHA","Something Else",12.5,0.53,0.171,,0.06,0.6,53,53,27,3.5,510,11.37,10.32,5.2,28063
+"Infant formula, MEAD JOHNSON, ENFAMIL, PROSOBEE, LIPIL, liquid concentrate, not reconstituted, with ARA and DHA","Something Else",3.19,0.134,0.045,,0.015300000000000001,0.153,13.58,13.58,7.11,75.47,131,2.969,2.598,1.378,28064
+"Infant formula, MEAD JOHNSON, ENFAMIL, PROSOBEE, with iron, powder, not reconstituted","Something Else",12.5,0.53,0.18,,0.06,0.6,54.3,53,27,3,510,11.37,10.32,5.2,28065
+"Infant formula, MEAD JOHNSON, ENFAMIL, low iron, liquid concentrate, not reconstituted","Something Else",2.76,0.102,0.035,,0.0158,0.142,14.05,14,7.25,75.34,132,3.084,2.693,1.437,28066
+"Infant formula, MEAD JOHNSON, ENFAMIL, low iron, powder, not reconstituted","Something Else",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,511,11.5,10,5.3,28067
+"Infant formula, MEAD JOHNSON, ENFAMIL, low iron, ready-to-feed","Something Else",1.38,0.051,0.018,,0.0079,0.071,7.18,7.18,3.5,88.35,63,1.479,1.291,0.689,28068
+"Infant formula, MEAD JOHNSON, ENFAMIL, with iron, liquid concentrate, not reconstituted","Something Else",2.68,0.1,0.035,,0.015300000000000001,0.138,13.96,13.96,7.31,75.47,128,3.093,2.8,1.41,28069
+"Infant formula, MEAD JOHNSON, ENFAMIL, with iron, powder","Something Else",10.8,0.4,0.139,,0.062,0.56,56.2,56,27,3.3,520,11.5,10.3,5.2,28070
+"Infant formula, MEAD JOHNSON, ENFAMIL, with iron, ready-to-feed","Something Else",1.38,0.051,0.018,,0.0079,0.071,7.18,7.18,3.5,88.35,63,1.469,1.33,0.67,28071
+"Infant formula, MEAD JOHNSON, NEXT STEP PROSOBEE, powder, not reconstituted","Something Else",15.6,0.92,0.171,,0.057,0.57,57.1,56,21,3,480,8.905,7.8,4.2,28072
+"Infant formula, MEAD JOHNSON, NEXT STEP, PROSOBEE LIPIL, powder, with ARA and DHA","Something Else",15.6,0.92,0.171,,0.057,0.57,57.1,56,21,3,480,8.905,7.8,4.2,28073
+"Infant formula, MEAD JOHNSON, NEXT STEP, PROSOBEE, LIPIL, ready to feed, with ARA and DHA","Something Else",2.14,0.128,0.023,,0.0079,0.079,8.09,7.77,2.91,86.4,67,1.242,1.078,0.573,28074
+"Infant formula, MEAD JOHNSON, PREGESTIMIL, with iron, powder, not reconstituted","Something Else",14,0.58,0.24,,0.06,0.55,52.8,51,28,2,519,16.8,4.6,6.5,28075
+"Infant formula, MEAD JOHNSON, PREGESTIMIL, with iron, prepared from powder","Something Else",1.82,0.075,0.031,,0.0078,0.071,6.63,6.63,3.65,87.5,67,2.172,0.583,0.809,28076
+"Infant formula, MEAD JOHNSON, PROSOBEE LIPIL, with iron, ready to feed, with ARA and DHA","Something Else",1.64,0.069,0.023,,0.0079,0.079,6.11,6.11,3.5,88.35,64,1.453,1.255,0.671,28077
+"Infant formula, MEAD JOHNSON, PROSOBEE, with iron, liquid concentrate, not reconstituted","Something Else",3.19,0.134,0.045,,0.015300000000000001,0.153,13.58,13.58,7.13,75.47,131,3.038,2.72,1.371,28078
+"Infant formula, MEAD JOHNSON, PROSOBEE, with iron, ready-to-feed","Something Else",1.64,0.069,0.023,,0.0079,0.079,6.11,6.11,3.5,88.35,63,1.443,1.292,0.651,28079
+"Infant formula, MEAD JOHNSON,NEXT STEP PROSOBEE, prepared from powder","Something Else",2.14,0.128,0.023,,0.0079,0.079,8.08,7.77,2.91,86.41,67,1.243,1.078,0.544,28080
+"Infant formula, NESTLE, GOOD START 2 ESSENTIALS, with iron, liquid concentrate, not reconstituted","Something Else",3.25,0.15,0.049,,0.011,0.169,16.5,11.9,5.13,74.2,125,2.213,1.582,1.213,28081
+"Infant formula, NESTLE, GOOD START 2 ESSENTIALS, with iron, powder","Something Else",12.2,0.565,0.184,,0.042,0.636,62.23,44.3,19.3,2.5,471,8.54,6.23,4.31,28082
+"Infant formula, NESTLE, GOOD START 2 ESSENTIALS, with iron, ready-to-feed","Something Else",1.7,0.078,0.025,,0.005900000000000001,0.088,8.54,6.19,2.7,86.6,65,1.18,0.87,0.6,28083
+"Infant formula, NESTLE, GOOD START ESSENTIALS SOY, with iron, liquid concentrate, not reconstituted","Something Else",3.2,0.133,0.046,,0.0152,0.146,14.1,11.2,6.5,75.4,128,2.8,2.03,1.317,28084
+"Infant formula, NESTLE, GOOD START ESSENTIALS SOY, with iron, powder","Something Else",12.5,0.526,0.18,,0.0601,0.581,55.7,44.38,25.5,2.5,502,11,8.1,6,28085
+"Infant formula, NESTLE, GOOD START ESSENTIALS SOY, with iron, ready-to-feed","Something Else",1.63,0.068,0.023,,0.0078,0.075,7.17,5.69,3.3,87.5,65,1.4,1,0.8,28086
+"Infant formula, NESTLE, GOOD START SOY, with ARA and DHA, powder","Something Else",12.5,0.526,0.2,,0.0601,0.581,55.6,44.38,25.6,2.5,503,11,8.1,6,28087
+"Infant formula, NESTLE, GOOD START SOY, with DHA and ARA, liquid concentrate","Something Else",3.31,0.139,0.053,,0.0159,0.154,14.71,11.74,6.67,74.2,132,2.897,2.198,1.431,28088
+"Infant formula, NESTLE, GOOD START SOY, with DHA and ARA, ready-to-feed","Something Else",1.6,0.067,0.026,,0.0077,0.074,7.13,5.68,3.28,87.5,64,1.4,1.189,0.695,28089
+"Infant formula, NESTLE, GOOD START SUPREME, with iron, DHA and ARA, prepared from liquid concentrate","Something Else",1.45,0.042,0.018,,0.005900000000000001,0.071,7.39,5,3.37,87.5,66,1.47,1.08,0.74,28090
+"Infant formula, NESTLE, GOOD START SUPREME, with iron, DHA and ARA, ready-to-feed","Something Else",1.45,0.042,0.018,,0.005900000000000001,0.071,7.39,5,3.37,87.5,66,1.47,1.08,0.74,28091
+"Infant formula, NESTLE, GOOD START SUPREME, with iron, liquid concentrate, not reconstituted","Something Else",2.79,0.081,0.034,,0.011,0.137,14.2,9.7,6.5,75.8,127,2.97,2.06,1.42,28092
+"Infant formula, NESTLE, GOOD START SUPREME, with iron, powder","Something Else",11.3,0.343,0.138,,0.0461,0.553,57.32,39.3,26.1,2.5,509,11.66,8.5,5.88,28093
+"Infant formula, NESTLE, GOOD START SUPREME, with iron, ready-to-feed","Something Else",1.45,0.042,0.018,,0.005900000000000001,0.071,7.39,5,3.37,87.5,66,1.47,1.08,0.74,28094
+"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, liquid concentrate, not reconstituted (formerly WYETH-AYERST)","Something Else",2.9,0.083,0.029,,0.0112,0.109,13.9,13.9,7,76,130,3.2,2.8,1,28095
+"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, powder (formerly WYETH-AYERST)","Something Else",12,0.331,0.118,,0.0433,0.441,56,56,28,2,524,12.761,11.131,3.951,28096
+"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, ready-to-feed (formerly WYETH-AYERST)","Something Else",1.4,0.041,0.014,,0.0056,0.055,6.4,6.4,3.5,88.1,63,1.6,1.4,0.5,28097
+"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, liquid concentrate (formerly WYETH-AYERST)","Something Else",3.6,0.118,0.036,,0.0108,0.138,12.18,12.18,7,76,126,3.2,2.8,1,28098
+"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, powder (formerly WYETH-AYERST)","Something Else",13.6,0.453,0.151,,0.042,0.528,52.2,52.2,27.2,2,508,12.37,10.78,3.83,28099
+"Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, ready-to-feed (formerly WYETH-AYERST)","Something Else",1.8,0.059,0.018,,0.0054,0.069,6.09,6.1,3.5,88,63,1.6,1.4,0.5,28100
+"Infant formula, PBM PRODUCTS, store brand, liquid concentrate, not reconstituted (formerly WYETH-AYERST)","Something Else",2.9,0.083,0.029,,0.0112,0.109,13.9,13.9,7,76,130,3.2,2.8,1,28101
+"Infant formula, PBM PRODUCTS, store brand, powder (formerly WYETH-AYERST)","Something Else",12,0.331,0.118,,0.0433,0.441,56,56,28,2,524,12.761,11.131,3.951,28102
+"Infant formula, PBM PRODUCTS, store brand, ready-to-feed (formerly WYETH-AYERST)","Something Else",1.4,0.041,0.014,,0.0056,0.055,6.39,6.4,3.5,88.1,63,1.6,1.4,0.5,28103
+"Infant formula, PBM PRODUCTS, store brand, soy, liquid concentrate, not reconstituted (formerly WYETH-AYERST)","Something Else",3.6,0.118,0.036,,0.0108,0.138,12.18,12.18,7,76,126,3.2,2.8,1,28104
+"Infant formula, PBM PRODUCTS, store brand, soy, powder (formerly WYETH-AYERST)","Something Else",13.6,0.453,0.151,,0.042,0.528,52.2,52.2,27.2,2,508,12.37,10.78,3.83,28105
+"Infant formula, PBM PRODUCTS, store brand, soy, ready-to-feed (formerly WYETH-AYERST)","Something Else",1.8,0.059,0.018,,0.0054,0.069,6.09,6.1,3.5,88,63,1.6,1.4,0.5,28106
+"Zwieback","Something Else",10.1,0.02,0.227,2.5,0.0053,0.305,74.2,12.5,9.7,4.5,426,2.525,4.244,2.073,28107
 "Animal fat, bacon grease","Fats and Oils",,0,0.15,,0,0,,,99.5,,897,39.004,44.874,11.144,28108
 "Butter replacement, without fat, powder","Fats and Oils",2,0.023,1.2,,0,0.002,89,5.3,1,5,373,0.589,0.276,0.057,28109
 "Butter, light, stick, with salt","Fats and Oils",3.3,0.048,0.45,,0,0.071,,,55.1,42.1,509,34.321,15.927,2.046,28110

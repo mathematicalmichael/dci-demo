@@ -23,7 +23,7 @@ var m = [60, 0, 10, 0],
     excluded_groups = [];
 
 var colors = {
-  "Baby Foods": [185,56,73],
+  "Something Else": [185,56,73],
   "Baked Products": [37,50,75],
   "Beef Products": [325,50,39],
   "Beverages": [10,28,67],
