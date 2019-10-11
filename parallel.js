@@ -51,7 +51,7 @@ var m = [60, 0, 10, 0],
 // };
 
 var colors = [
-  [0, 0 ,0],
+    [110,57,70]
 ];
 
 // Scale chart and canvas height
