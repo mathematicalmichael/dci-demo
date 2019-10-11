@@ -18,38 +18,41 @@ var m = [60, 0, 10, 0],
     background,
     highlighted,
     dimensions,                           
-    legend,
     render_speed = 50,
     brush_count = 0,
     excluded_groups = [];
 
-var colors = {
-  "Baby Foods": [185,56,73],
-  "Baked Products": [37,50,75],
-  "Beef Products": [325,50,39],
-  "Beverages": [10,28,67],
-  "Breakfast Cereals": [271,39,57],
-  "Cereal Grains and Pasta": [56,58,73],
-  "Dairy and Egg Products": [28,100,52],
-  "Ethnic Foods": [41,75,61],
-  "Fast Foods": [60,86,61],
-  "Fats and Oils": [30,100,73],
-  "Finfish and Shellfish Products": [318,65,67],
-  "Fruits and Fruit Juices": [274,30,76],
-  "Lamb, Veal, and Game Products": [20,49,49],
-  "Legumes and Legume Products": [334,80,84],
-  "Meals, Entrees, and Sidedishes": [185,80,45],
-  "Nut and Seed Products": [10,30,42],
-  "Pork Products": [339,60,49],
-  "Poultry Products": [359,69,49],
-  "Restaurant Foods": [204,70,41],
-  "Sausages and Luncheon Meats": [1,100,79],
-  "Snacks": [189,57,75],
-  "Soups, Sauces, and Gravies": [110,57,70],
-  "Spices and Herbs": [214,55,79],
-  "Sweets": [339,60,75],
-  "Vegetables and Vegetable Products": [120,56,40]
-};
+// var colors = {
+//   "Something Else": [185,56,73],
+//   "Baked Products": [37,50,75],
+//   "Beef Products": [325,50,39],
+//   "Beverages": [10,28,67],
+//   "Breakfast Cereals": [271,39,57],
+//   "Cereal Grains and Pasta": [56,58,73],
+//   "Dairy and Egg Products": [28,100,52],
+//   "Ethnic Foods": [41,75,61],
+//   "Fast Foods": [60,86,61],
+//   "Fats and Oils": [30,100,73],
+//   "Finfish and Shellfish Products": [318,65,67],
+//   "Fruits and Fruit Juices": [274,30,76],
+//   "Lamb, Veal, and Game Products": [20,49,49],
+//   "Legumes and Legume Products": [334,80,84],
+//   "Meals, Entrees, and Sidedishes": [185,80,45],
+//   "Nut and Seed Products": [10,30,42],
+//   "Pork Products": [339,60,49],
+//   "Poultry Products": [359,69,49],
+//   "Restaurant Foods": [204,70,41],
+//   "Sausages and Luncheon Meats": [1,100,79],
+//   "Snacks": [189,57,75],
+//   "Soups, Sauces, and Gravies": [110,57,70],
+//   "Spices and Herbs": [214,55,79],
+//   "Sweets": [339,60,75],
+//   "Vegetables and Vegetable Products": [120,56,40]
+// };
+
+var colors = [
+  [0, 0 ,0],
+];
 
 // Scale chart and canvas height
 d3.select("#chart")
@@ -86,7 +89,7 @@ var svg = d3.select("svg")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 // Load the data and visualization
-d3.csv("nutrients.csv", function(raw_data) {
+d3.csv("budget.csv", function(raw_data) {
   // Convert quantitative scales to floats
   data = raw_data.map(function(d) {
     for (var k in d) {
@@ -123,13 +126,6 @@ d3.csv("nutrients.csv", function(raw_data) {
           g.attr("transform", function(d) { return "translate(" + position(d) + ")"; });
           brush_count++;
           this.__dragged__ = true;
-
-          // Feedback for axis deletion if dropped
-          if (dragging[d] < 12 || dragging[d] > w-12) {
-            d3.select(this).select(".background").style("fill", "#b00");
-          } else {
-            d3.select(this).select(".background").style("fill", null);
-          }
         })
         .on("dragend", function(d) {
           if (!this.__dragged__) {
@@ -141,11 +137,6 @@ d3.csv("nutrients.csv", function(raw_data) {
             d3.select(this).transition().attr("transform", "translate(" + xscale(d) + ")");
 
             var extent = yscale[d].brush.extent();
-          }
-
-          // remove axis if dragged all the way left
-          if (dragging[d] < 12 || dragging[d] > w-12) {
-            remove_axis(d,g);
           }
 
           // TODO required to avoid a bug
@@ -166,8 +157,8 @@ d3.csv("nutrients.csv", function(raw_data) {
       .attr("transform", "translate(0,0)")
       .each(function(d) { d3.select(this).call(axis.scale(yscale[d])); })
     .append("svg:text")
-      .attr("text-anchor", "middle")
-      .attr("y", function(d,i) { return i%2 == 0 ? -14 : -30 } )
+      .attr("transform", "rotate(-45)")
+      .attr("y", -10 )
       .attr("x", 0)
       .attr("class", "label")
       .text(String)
@@ -189,8 +180,6 @@ d3.csv("nutrients.csv", function(raw_data) {
       .append("title")
         .text("Drag or resize this filter");
 
-
-  legend = create_legend(colors,brush);
 
   // Render full foreground
   brush();
@@ -217,47 +206,6 @@ function grayscale(pixels, args) {
   }
   return pixels;
 };
-
-function create_legend(colors,brush) {
-  // create legend
-  var legend_data = d3.select("#legend")
-    .html("")
-    .selectAll(".row")
-    .data( _.keys(colors).sort() )
-
-  // filter by group
-  var legend = legend_data
-    .enter().append("div")
-      .attr("title", "Hide group")
-      .on("click", function(d) { 
-        // toggle food group
-        if (_.contains(excluded_groups, d)) {
-          d3.select(this).attr("title", "Hide group")
-          excluded_groups = _.difference(excluded_groups,[d]);
-          brush();
-        } else {
-          d3.select(this).attr("title", "Show group")
-          excluded_groups.push(d);
-          brush();
-        }
-      });
-
-  legend
-    .append("span")
-    .style("background", function(d,i) { return color(d,0.85)})
-    .attr("class", "color-bar");
-
-  legend
-    .append("span")
-    .attr("class", "tally")
-    .text(function(d,i) { return 0});  
-
-  legend
-    .append("span")
-    .text(function(d,i) { return " " + d});  
-
-  return legend;
-}
  
 // render polylines i to i+render_speed 
 function render_range(selection, i, max, opacity) {
@@ -351,24 +299,6 @@ function invert_axis(d) {
   return extent;
 }
 
-// Draw a single polyline
-/*
-function path(d, ctx, color) {
-  if (color) ctx.strokeStyle = color;
-  var x = xscale(0)-15;
-      y = yscale[dimensions[0]](d[dimensions[0]]);   // left edge
-  ctx.beginPath();
-  ctx.moveTo(x,y);
-  dimensions.map(function(p,i) {
-    x = xscale(p),
-    y = yscale[p](d[p]);
-    ctx.lineTo(x, y);
-  });
-  ctx.lineTo(x+15, y);                               // right edge
-  ctx.stroke();
-}
-*/
-
 function path(d, ctx, color) {
   if (color) ctx.strokeStyle = color;
   ctx.beginPath();
@@ -391,7 +321,7 @@ function path(d, ctx, color) {
 };
 
 function color(d,a) {
-  var c = colors[d];
+  var c = colors[0];
   return ["hsla(",c[0],",",c[1],"%,",c[2],"%,",a,")"].join("");
 }
 
@@ -453,12 +383,6 @@ function brush() {
       }) ? selected.push(d) : null;
     });
 
-  // free text search
-  var query = d3.select("#search")[0][0].value;
-  if (query.length > 0) {
-    selected = search(selected, query);
-  }
-
   if (selected.length < data.length && selected.length > 0) {
     d3.select("#keep-data").attr("disabled", null);
     d3.select("#exclude-data").attr("disabled", null);
@@ -473,22 +397,6 @@ function brush() {
 
   // include empty groups
   _(colors).each(function(v,k) { tallies[k] = tallies[k] || []; });
-
-  legend
-    .style("text-decoration", function(d) { return _.contains(excluded_groups,d) ? "line-through" : null; })
-    .attr("class", function(d) {
-      return (tallies[d].length > 0)
-           ? "row"
-           : "row off";
-    });
-
-  legend.selectAll(".color-bar")
-    .style("width", function(d) {
-      return Math.ceil(600*tallies[d].length/data.length) + "px"
-    });
-
-  legend.selectAll(".tally")
-    .text(function(d,i) { return tallies[d].length });  
 
   // Render selected lines
   paths(selected, foreground, brush_count, true);
@@ -549,7 +457,8 @@ function update_ticks(d, extent) {
   d3.selectAll(".axis")
     .each(function(d,i) {
       // hide lines for better performance
-      d3.select(this).selectAll('line').style("display", "none");
+      d3.select(this).selectAll('line')
+        .style("display", "none");
 
       // transition axis numbers
       d3.select(this)
@@ -607,12 +516,6 @@ function actives() {
     }) ? selected.push(d) : null;
   });
 
-  // free text search
-  var query = d3.select("#search")[0][0].value;
-  if (query > 0) {
-    selected = search(selected, query);
-  }
-
   return selected;
 }
 
@@ -664,7 +567,9 @@ window.onresize = function() {
   // update axis placement
   axis = axis.ticks(1+height/50),
   d3.selectAll(".axis")
-    .each(function(d) { d3.select(this).call(axis.scale(yscale[d])); });
+    .each(function(d) { 
+      d3.select(this).call(axis.scale(yscale[d]));
+    });
 
   // render data
   brush();
@@ -692,18 +597,9 @@ function exclude_data() {
   rescale();
 }
 
-function remove_axis(d,g) {
-  dimensions = _.difference(dimensions, [d]);
-  xscale.domain(dimensions);
-  g.attr("transform", function(p) { return "translate(" + position(p) + ")"; });
-  g.filter(function(p) { return p == d; }).remove(); 
-  update_ticks();
-}
-
 d3.select("#keep-data").on("click", keep_data);
 d3.select("#exclude-data").on("click", exclude_data);
 d3.select("#export-data").on("click", export_csv);
-d3.select("#search").on("keyup", brush);
 
 
 // Appearance toggles
@@ -738,9 +634,4 @@ function light_theme() {
   d3.select("body").attr("class", null);
   d3.selectAll("#light-theme").attr("disabled", "disabled");
   d3.selectAll("#dark-theme").attr("disabled", null);
-}
-
-function search(selection,str) {
-  pattern = new RegExp(str,"i")
-  return _(selection).filter(function(d) { return pattern.exec(d.name); });
 }
