@@ -22,33 +22,37 @@ var m = [60, 0, 10, 0],
     brush_count = 0,
     excluded_groups = [];
 
-var colors = {
-  "Something Else": [185,56,73],
-  "Baked Products": [37,50,75],
-  "Beef Products": [325,50,39],
-  "Beverages": [10,28,67],
-  "Breakfast Cereals": [271,39,57],
-  "Cereal Grains and Pasta": [56,58,73],
-  "Dairy and Egg Products": [28,100,52],
-  "Ethnic Foods": [41,75,61],
-  "Fast Foods": [60,86,61],
-  "Fats and Oils": [30,100,73],
-  "Finfish and Shellfish Products": [318,65,67],
-  "Fruits and Fruit Juices": [274,30,76],
-  "Lamb, Veal, and Game Products": [20,49,49],
-  "Legumes and Legume Products": [334,80,84],
-  "Meals, Entrees, and Sidedishes": [185,80,45],
-  "Nut and Seed Products": [10,30,42],
-  "Pork Products": [339,60,49],
-  "Poultry Products": [359,69,49],
-  "Restaurant Foods": [204,70,41],
-  "Sausages and Luncheon Meats": [1,100,79],
-  "Snacks": [189,57,75],
-  "Soups, Sauces, and Gravies": [110,57,70],
-  "Spices and Herbs": [214,55,79],
-  "Sweets": [339,60,75],
-  "Vegetables and Vegetable Products": [120,56,40]
-};
+// var colors = {
+//   "Something Else": [185,56,73],
+//   "Baked Products": [37,50,75],
+//   "Beef Products": [325,50,39],
+//   "Beverages": [10,28,67],
+//   "Breakfast Cereals": [271,39,57],
+//   "Cereal Grains and Pasta": [56,58,73],
+//   "Dairy and Egg Products": [28,100,52],
+//   "Ethnic Foods": [41,75,61],
+//   "Fast Foods": [60,86,61],
+//   "Fats and Oils": [30,100,73],
+//   "Finfish and Shellfish Products": [318,65,67],
+//   "Fruits and Fruit Juices": [274,30,76],
+//   "Lamb, Veal, and Game Products": [20,49,49],
+//   "Legumes and Legume Products": [334,80,84],
+//   "Meals, Entrees, and Sidedishes": [185,80,45],
+//   "Nut and Seed Products": [10,30,42],
+//   "Pork Products": [339,60,49],
+//   "Poultry Products": [359,69,49],
+//   "Restaurant Foods": [204,70,41],
+//   "Sausages and Luncheon Meats": [1,100,79],
+//   "Snacks": [189,57,75],
+//   "Soups, Sauces, and Gravies": [110,57,70],
+//   "Spices and Herbs": [214,55,79],
+//   "Sweets": [339,60,75],
+//   "Vegetables and Vegetable Products": [120,56,40]
+// };
+
+var colors = [
+  [0, 0 ,0],
+];
 
 // Scale chart and canvas height
 d3.select("#chart")
@@ -85,7 +89,7 @@ var svg = d3.select("svg")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 // Load the data and visualization
-d3.csv("nutrients.csv", function(raw_data) {
+d3.csv("budget.csv", function(raw_data) {
   // Convert quantitative scales to floats
   data = raw_data.map(function(d) {
     for (var k in d) {
@@ -317,7 +321,7 @@ function path(d, ctx, color) {
 };
 
 function color(d,a) {
-  var c = colors[d];
+  var c = colors[0];
   return ["hsla(",c[0],",",c[1],"%,",c[2],"%,",a,")"].join("");
 }
 
