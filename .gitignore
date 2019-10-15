@@ -5,3 +5,4 @@
 db.yaml
 Budget_Options.csv
 budget*.csv
+__pycache__/
