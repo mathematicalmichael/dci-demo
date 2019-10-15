@@ -1,24 +1,69 @@
 1:
-  item-one:
+  vacation:
+    a: 1.0
+    b: 1.0
+    loc: 3000.0
+    scale: 2000.0
+2:
+  lip-injections:
+    a: 1.0
+    b: 1.0
+    loc: 550.0
+    scale: 25.0
+  weekend-trips:
     a: 1.0
     b: 1.0
     loc: 0.0
-    scale: 10.0
-  item-three:
-    a: 4.5
-    b: 1.5
-    loc: 5.0
-    scale: 15.0
-  item-two:
+    scale: 500.0
+4:
+  botox:
     a: 1.0
     b: 1.0
-    loc: 0.0
-    scale: 20.0
-2: {}
-4: {}
+    loc: 250.0
+    scale: 50.0
+  shopping:
+    a: 1.0
+    b: 1.0
+    loc: 200.0
+    scale: 800.0
 6: {}
-12: {}
-24: {}
-26: {}
-52: {}
+12:
+  pilates:
+    a: 1.0
+    b: 1.0
+    loc: 150.0
+    scale: 100.0
+  rent:
+    a: 1.0
+    b: 1.0
+    loc: 1400.0
+    scale: 800.0
+24:
+  gasoline:
+    a: 1.0
+    b: 1.0
+    loc: 40.0
+    scale: 20.0
+26:
+  amazon:
+    a: 1.0
+    b: 1.0
+    loc: 20.0
+    scale: 60.0
+52:
+  eating-out:
+    a: 1.0
+    b: 1.0
+    loc: 50.0
+    scale: 50.0
+  weed:
+    a: 1.0
+    b: 1.0
+    loc: 100.0
+    scale: 100.0
+  wholefoods:
+    a: 1.0
+    b: 1.0
+    loc: 180.0
+    scale: 170.0
 365: {}
