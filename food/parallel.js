@@ -356,11 +356,11 @@ function invert_axis(d) {
 function path(d, ctx, color) {
   if (color) ctx.strokeStyle = color;
   ctx.beginPath();
-  var x0 = xscale(0)-15,
+  var x0 = xscale(0) +13,
       y0 = yscale[dimensions[0]](d[dimensions[0]]);   // left edge
   ctx.moveTo(x0,y0);
   dimensions.map(function(p,i) {
-    var x = xscale(p),
+    var x = xscale(p) +13,
         y = yscale[p](d[p]);
     var cp1x = x - 0.88*(x-x0);
     var cp1y = y0;
@@ -370,7 +370,7 @@ function path(d, ctx, color) {
     x0 = x;
     y0 = y;
   });
-  ctx.lineTo(x0+15, y0);                               // right edge
+  ctx.lineTo(x0, y0);                               // right edge
   ctx.stroke();
 };
 
