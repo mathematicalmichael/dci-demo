@@ -419,7 +419,7 @@ function paths(selected, ctx, count) {
 
   // render all lines until finished or a new brush event
   function animloop(){
-    if (i >= n || count < brush_count) return true;
+    // if (i >= n || count < brush_count) return true;
     var max = d3.min([i+render_speed, n]);
     render_range(shuffled_data, i, max, opacity);
     render_stats(max,n,render_speed);
