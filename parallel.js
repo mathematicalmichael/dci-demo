@@ -365,7 +365,7 @@ function path(d, ctx, color) {
 };
 
 function color(d,a) {
-  var c = colors[d] || [0,0,0];
+  var c = colors[0];
   return ["hsla(",c[0],",",c[1],"%,",c[2],"%,",a,")"].join("");
 }
 
