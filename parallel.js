@@ -17,38 +17,11 @@ var m = [60, 0, 10, 0],
     foreground,
     background,
     highlighted,
-    dimensions,                           
+    dimensions,
+    legend,
     render_speed = 50,
     brush_count = 0,
     excluded_groups = [];
-
-// var colors = {
-//   "Something Else": [185,56,73],
-//   "Baked Products": [37,50,75],
-//   "Beef Products": [325,50,39],
-//   "Beverages": [10,28,67],
-//   "Breakfast Cereals": [271,39,57],
-//   "Cereal Grains and Pasta": [56,58,73],
-//   "Dairy and Egg Products": [28,100,52],
-//   "Ethnic Foods": [41,75,61],
-//   "Fast Foods": [60,86,61],
-//   "Fats and Oils": [30,100,73],
-//   "Finfish and Shellfish Products": [318,65,67],
-//   "Fruits and Fruit Juices": [274,30,76],
-//   "Lamb, Veal, and Game Products": [20,49,49],
-//   "Legumes and Legume Products": [334,80,84],
-//   "Meals, Entrees, and Sidedishes": [185,80,45],
-//   "Nut and Seed Products": [10,30,42],
-//   "Pork Products": [339,60,49],
-//   "Poultry Products": [359,69,49],
-//   "Restaurant Foods": [204,70,41],
-//   "Sausages and Luncheon Meats": [1,100,79],
-//   "Snacks": [189,57,75],
-//   "Soups, Sauces, and Gravies": [110,57,70],
-//   "Spices and Herbs": [214,55,79],
-//   "Sweets": [339,60,75],
-//   "Vegetables and Vegetable Products": [120,56,40]
-// };
 
 var colors = [
     [110,57,70]
@@ -103,7 +76,7 @@ d3.csv("budget.csv", function(raw_data) {
   // Extract the list of numerical dimensions and create a scale for each.
   xscale.domain(dimensions = d3.keys(data[0]).filter(function(k) {
     return (_.isNumber(data[0][k])) && (yscale[k] = d3.scale.linear()
-      .domain(d3.extent(data, function(d) { return +d[k]; }))
+      .domain(d3.extent(data, d => +d[k]))
       .range([h, 0]));
   }).sort());
 
@@ -121,7 +94,7 @@ d3.csv("budget.csv", function(raw_data) {
         })
         .on("drag", function(d) {
           dragging[d] = Math.min(w, Math.max(0, this.__origin__ += d3.event.dx));
-          dimensions.sort(function(a, b) { return position(a) - position(b); });
+          dimensions.sort((a, b) => position(a) - position(b));
           xscale.domain(dimensions);
           g.attr("transform", function(d) { return "translate(" + position(d) + ")"; });
           brush_count++;
@@ -157,8 +130,8 @@ d3.csv("budget.csv", function(raw_data) {
       .attr("transform", "translate(0,0)")
       .each(function(d) { d3.select(this).call(axis.scale(yscale[d])); })
     .append("svg:text")
-      .attr("transform", "rotate(-45)")
-      .attr("y", -10 )
+      .attr("transform", "rotate(-25)")
+      .attr("y", -5 )
       .attr("x", 0)
       .attr("class", "label")
       .text(String)
@@ -180,6 +153,8 @@ d3.csv("budget.csv", function(raw_data) {
       .append("title")
         .text("Drag or resize this filter");
 
+
+  legend = create_legend(colors,brush);
 
   // Render full foreground
   brush();
@@ -206,8 +181,49 @@ function grayscale(pixels, args) {
   }
   return pixels;
 };
- 
-// render polylines i to i+render_speed 
+
+function create_legend(colors,brush) {
+  // create legend
+  var legend_data = d3.select("#legend")
+    .html("")
+    .selectAll(".row")
+    .data( _.keys(colors).sort() )
+
+  // filter by group
+  var legend = legend_data
+    .enter().append("div")
+      .attr("title", "Hide group")
+      .on("click", function(d) {
+        // toggle food group
+        if (_.contains(excluded_groups, d)) {
+          d3.select(this).attr("title", "Hide group")
+          excluded_groups = _.difference(excluded_groups,[d]);
+          brush();
+        } else {
+          d3.select(this).attr("title", "Show group")
+          excluded_groups.push(d);
+          brush();
+        }
+      });
+
+  legend
+    .append("span")
+    .style("background", function(d,i) { return color(d,0.85)})
+    .attr("class", "color-bar");
+
+  legend
+    .append("span")
+    .attr("class", "tally")
+    .text(function(d,i) { return 0});
+
+  legend
+    .append("span")
+    .text(function(d,i) { return " " + d});
+
+  return legend;
+}
+
+// render polylines i to i+render_speed
 function render_range(selection, i, max, opacity) {
   selection.slice(i,max).forEach(function(d) {
     path(d, foreground, color(d.group,opacity));
@@ -237,10 +253,10 @@ function data_table(sample) {
 
   table
     .append("span")
-      .text(function(d) { return d.name; })
+      .text((d, i) => `Budget ${i}`)
 }
 
-// Adjusts rendering speed 
+// Adjusts rendering speed
 function optimize(timer) {
   var delta = (new Date()).getTime() - timer;
   render_speed = Math.max(Math.ceil(render_speed * 30 / delta), 8);
@@ -302,11 +318,11 @@ function invert_axis(d) {
 function path(d, ctx, color) {
   if (color) ctx.strokeStyle = color;
   ctx.beginPath();
-  var x0 = xscale(0)-15,
+  var x0 = xscale(0) +13,
       y0 = yscale[dimensions[0]](d[dimensions[0]]);   // left edge
   ctx.moveTo(x0,y0);
   dimensions.map(function(p,i) {
-    var x = xscale(p),
+    var x = xscale(p) +13,
         y = yscale[p](d[p]);
     var cp1x = x - 0.88*(x-x0);
     var cp1y = y0;
@@ -316,7 +332,7 @@ function path(d, ctx, color) {
     x0 = x;
     y0 = y;
   });
-  ctx.lineTo(x0+15, y0);                               // right edge
+  ctx.lineTo(x0, y0);                               // right edge
   ctx.stroke();
 };
 
@@ -347,7 +363,7 @@ function brush() {
           .selectAll('text')
           .style('font-weight', 'bold')
           .style('font-size', '13px')
-          .style('display', function() { 
+          .style('display', function() {
             var value = d3.select(this).data();
             return extent[0] <= value && value <= extent[1] ? null : "none"
           });
@@ -362,8 +378,7 @@ function brush() {
         .selectAll('.label')
         .style('display', null);
     });
-    ;
- 
+
   // bold dimensions with label
   d3.selectAll('.label')
     .style("font-weight", function(dimension) {
@@ -398,6 +413,22 @@ function brush() {
   // include empty groups
   _(colors).each(function(v,k) { tallies[k] = tallies[k] || []; });
 
+  legend
+    .style("text-decoration", function(d) { return _.contains(excluded_groups,d) ? "line-through" : null; })
+    .attr("class", function(d) {
+      return (tallies[d].length > 0)
+           ? "row"
+           : "row off";
+    });
+  legend.selectAll(".color-bar")
+
+    .style("width", function(d) {
+      return Math.ceil(600*tallies[d].length/data.length) + "px"
+    });
+
+  legend.selectAll(".tally")
+    .text(function(d,i) { return tallies[d].length });
+
   // Render selected lines
   paths(selected, foreground, brush_count, true);
 }
@@ -419,7 +450,7 @@ function paths(selected, ctx, count) {
 
   // render all lines until finished or a new brush event
   function animloop(){
-    if (i >= n || count < brush_count) return true;
+    // if (i >= n || count < brush_count) return true;
     var max = d3.min([i+render_speed, n]);
     render_range(shuffled_data, i, max, opacity);
     render_stats(max,n,render_speed);
@@ -551,7 +582,7 @@ window.onresize = function() {
       .attr("height", h + m[0] + m[2])
     .select("g")
       .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
-  
+
   xscale = d3.scale.ordinal().rangePoints([0, w], 1).domain(dimensions);
   dimensions.forEach(function(d) {
     yscale[d].range([h, 0]);
@@ -567,7 +598,7 @@ window.onresize = function() {
   // update axis placement
   axis = axis.ticks(1+height/50),
   d3.selectAll(".axis")
-    .each(function(d) { 
+    .each(function(d) {
       d3.select(this).call(axis.scale(yscale[d]));
     });
 
@@ -600,6 +631,7 @@ function exclude_data() {
 d3.select("#keep-data").on("click", keep_data);
 d3.select("#exclude-data").on("click", exclude_data);
 d3.select("#export-data").on("click", export_csv);
+d3.select("#search").on("keyup", brush);
 
 
 // Appearance toggles
@@ -634,4 +666,9 @@ function light_theme() {
   d3.select("body").attr("class", null);
   d3.selectAll("#light-theme").attr("disabled", "disabled");
   d3.selectAll("#dark-theme").attr("disabled", null);
+}
+
+function search(selection,str) {
+  pattern = new RegExp(str,"i")
+  return _(selection).filter(function(d) { return pattern.exec(d.name); });
 }
