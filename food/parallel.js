@@ -17,7 +17,7 @@ var m = [60, 0, 10, 0],
     foreground,
     background,
     highlighted,
-    dimensions,                           
+    dimensions,
     render_speed = 50,
     brush_count = 0,
     excluded_groups = [];
@@ -103,7 +103,7 @@ d3.csv("budget.csv", function(raw_data) {
   // Extract the list of numerical dimensions and create a scale for each.
   xscale.domain(dimensions = d3.keys(data[0]).filter(function(k) {
     return (_.isNumber(data[0][k])) && (yscale[k] = d3.scale.linear()
-      .domain(d3.extent(data, function(d) { return +d[k]; }))
+      .domain(d3.extent(data, d => +d[k]))
       .range([h, 0]));
   }).sort());
 
@@ -121,7 +121,7 @@ d3.csv("budget.csv", function(raw_data) {
         })
         .on("drag", function(d) {
           dragging[d] = Math.min(w, Math.max(0, this.__origin__ += d3.event.dx));
-          dimensions.sort(function(a, b) { return position(a) - position(b); });
+          dimensions.sort((a, b) => position(a) - position(b));
           xscale.domain(dimensions);
           g.attr("transform", function(d) { return "translate(" + position(d) + ")"; });
           brush_count++;
@@ -206,8 +206,8 @@ function grayscale(pixels, args) {
   }
   return pixels;
 };
- 
-// render polylines i to i+render_speed 
+
+// render polylines i to i+render_speed
 function render_range(selection, i, max, opacity) {
   selection.slice(i,max).forEach(function(d) {
     path(d, foreground, color(d.group,opacity));
@@ -240,7 +240,7 @@ function data_table(sample) {
       .text(function(d) { return d.name; })
 }
 
-// Adjusts rendering speed 
+// Adjusts rendering speed
 function optimize(timer) {
   var delta = (new Date()).getTime() - timer;
   render_speed = Math.max(Math.ceil(render_speed * 30 / delta), 8);
@@ -340,6 +340,7 @@ function brush() {
   // hack to hide ticks beyond extent
   var b = d3.selectAll('.dimension')[0]
     .forEach(function(element, i) {
+      console.log(i)
       var dimension = d3.select(element).data()[0];
       if (_.include(actives, dimension)) {
         var extent = extents[actives.indexOf(dimension)];
@@ -347,7 +348,7 @@ function brush() {
           .selectAll('text')
           .style('font-weight', 'bold')
           .style('font-size', '13px')
-          .style('display', function() { 
+          .style('display', function() {
             var value = d3.select(this).data();
             return extent[0] <= value && value <= extent[1] ? null : "none"
           });
@@ -362,8 +363,7 @@ function brush() {
         .selectAll('.label')
         .style('display', null);
     });
-    ;
- 
+
   // bold dimensions with label
   d3.selectAll('.label')
     .style("font-weight", function(dimension) {
@@ -551,7 +551,7 @@ window.onresize = function() {
       .attr("height", h + m[0] + m[2])
     .select("g")
       .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
-  
+
   xscale = d3.scale.ordinal().rangePoints([0, w], 1).domain(dimensions);
   dimensions.forEach(function(d) {
     yscale[d].range([h, 0]);
@@ -567,7 +567,7 @@ window.onresize = function() {
   // update axis placement
   axis = axis.ticks(1+height/50),
   d3.selectAll(".axis")
-    .each(function(d) { 
+    .each(function(d) {
       d3.select(this).call(axis.scale(yscale[d]));
     });
 
