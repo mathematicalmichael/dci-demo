@@ -18,6 +18,7 @@ var m = [60, 0, 10, 0],
     background,
     highlighted,
     dimensions,
+    legend,
     render_speed = 50,
     brush_count = 0,
     excluded_groups = [];
@@ -50,9 +51,19 @@ var m = [60, 0, 10, 0],
 //   "Vegetables and Vegetable Products": [120,56,40]
 // };
 
-var colors = [
-  [0, 0 ,0],
-];
+var colors = {
+  "1-vacation":  [0, 0 ,0],
+  "1-investment-fund":  [0, 0 ,0],
+  "4-travel-family":  [0, 0 ,0],
+  "12-rent":  [0, 0 ,0],
+  "12-util-connectivity":  [0, 0 ,0],
+  "12-util-transportation":  [0, 0 ,0],
+  "12-membership-gyms":  [0, 0 ,0],
+  "12-membership-other":  [0, 0 ,0],
+  "12-recreational-fund":  [0, 0 ,0],
+  "52-util-laundry":  [0, 0 ,0],
+  "365-daily-food":  [0, 0 ,0],
+};
 
 // Scale chart and canvas height
 d3.select("#chart")
@@ -181,6 +192,8 @@ d3.csv("budget.csv", function(raw_data) {
         .text("Drag or resize this filter");
 
 
+  legend = create_legend(colors,brush);
+
   // Render full foreground
   brush();
 
@@ -206,6 +219,47 @@ function grayscale(pixels, args) {
   }
   return pixels;
 };
+
+function create_legend(colors,brush) {
+  // create legend
+  var legend_data = d3.select("#legend")
+    .html("")
+    .selectAll(".row")
+    .data( _.keys(colors).sort() )
+
+  // filter by group
+  var legend = legend_data
+    .enter().append("div")
+      .attr("title", "Hide group")
+      .on("click", function(d) {
+        // toggle food group
+        if (_.contains(excluded_groups, d)) {
+          d3.select(this).attr("title", "Hide group")
+          excluded_groups = _.difference(excluded_groups,[d]);
+          brush();
+        } else {
+          d3.select(this).attr("title", "Show group")
+          excluded_groups.push(d);
+          brush();
+        }
+      });
+
+  legend
+    .append("span")
+    .style("background", function(d,i) { return color(d,0.85)})
+    .attr("class", "color-bar");
+
+  legend
+    .append("span")
+    .attr("class", "tally")
+    .text(function(d,i) { return 0});
+
+  legend
+    .append("span")
+    .text(function(d,i) { return " " + d});
+
+  return legend;
+}
 
 // render polylines i to i+render_speed
 function render_range(selection, i, max, opacity) {
@@ -237,7 +291,7 @@ function data_table(sample) {
 
   table
     .append("span")
-      .text(function(d) { return d.name; })
+      .text((d, i) => `Budget ${i}`)
 }
 
 // Adjusts rendering speed
@@ -321,7 +375,7 @@ function path(d, ctx, color) {
 };
 
 function color(d,a) {
-  var c = colors[0];
+  var c = colors[d] || [0,0,0];
   return ["hsla(",c[0],",",c[1],"%,",c[2],"%,",a,")"].join("");
 }
 
@@ -340,7 +394,6 @@ function brush() {
   // hack to hide ticks beyond extent
   var b = d3.selectAll('.dimension')[0]
     .forEach(function(element, i) {
-      console.log(i)
       var dimension = d3.select(element).data()[0];
       if (_.include(actives, dimension)) {
         var extent = extents[actives.indexOf(dimension)];
@@ -397,6 +450,22 @@ function brush() {
 
   // include empty groups
   _(colors).each(function(v,k) { tallies[k] = tallies[k] || []; });
+
+  legend
+    .style("text-decoration", function(d) { return _.contains(excluded_groups,d) ? "line-through" : null; })
+    .attr("class", function(d) {
+      return (tallies[d].length > 0)
+           ? "row"
+           : "row off";
+    });
+  legend.selectAll(".color-bar")
+
+    .style("width", function(d) {
+      return Math.ceil(600*tallies[d].length/data.length) + "px"
+    });
+
+  legend.selectAll(".tally")
+    .text(function(d,i) { return tallies[d].length });
 
   // Render selected lines
   paths(selected, foreground, brush_count, true);
@@ -600,6 +669,7 @@ function exclude_data() {
 d3.select("#keep-data").on("click", keep_data);
 d3.select("#exclude-data").on("click", exclude_data);
 d3.select("#export-data").on("click", export_csv);
+d3.select("#search").on("keyup", brush);
 
 
 // Appearance toggles
@@ -634,4 +704,9 @@ function light_theme() {
   d3.select("body").attr("class", null);
   d3.selectAll("#light-theme").attr("disabled", "disabled");
   d3.selectAll("#dark-theme").attr("disabled", null);
+}
+
+function search(selection,str) {
+  pattern = new RegExp(str,"i")
+  return _(selection).filter(function(d) { return pattern.exec(d.name); });
 }
