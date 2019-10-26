@@ -1,8 +1,7 @@
 *.swp
+*.yaml
 *.log
 .ipynb_checkpoints/
 .DS_Store
-db.yaml
-Budget_Options.csv
-budget*.csv
+*.csv
 __pycache__/
