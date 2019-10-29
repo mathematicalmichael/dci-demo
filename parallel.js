@@ -214,7 +214,7 @@ function render_range(selection, i, max, opacity) {
 function data_table(sample) {
   // sort by first column
   var sample = sample.sort(function(a,b) {
-    var col = d3.keys(a)[0];
+    var col = dimensions[0];
     return a[col] < b[col] ? -1 : 1;
   });
 
