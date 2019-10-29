@@ -19,7 +19,7 @@ var m = [60, 0, 10, 0],
     highlighted,
     dimensions,
     legend,
-    render_speed = 20,
+    render_speed = 50,
     brush_count = 0,
     excluded_groups = [];
 
@@ -450,8 +450,8 @@ function paths(selected, ctx, count) {
 
   selection_stats(opacity, n, data.length)
 
-  shuffled_data = _.shuffle(selected);
-
+  //shuffled_data = _.shuffle(selected);
+  shuffled_data = selected;
   data_table(shuffled_data);
 
   ctx.clearRect(0,0,w+1,h+1);
