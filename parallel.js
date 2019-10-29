@@ -239,7 +239,6 @@ function data_table(sample) {
     return a[col] < b[col] ? -1 : 1;
   });
 
-  var seltxt = '';
 
   var table = d3.select("#item-list")
     .html("")
@@ -249,7 +248,11 @@ function data_table(sample) {
       .on("mouseover", highlight)
       .on("mouseout", unhighlight);
 
-  for (var i = 0, itemLen = dimensions.length; i < itemLen; seltxt += ' ' + Math.round(sample[0][dimensions[i++]]));
+  function SelTxt(i) {
+    var seltxt = '';
+    for (var k = 0, itemLen = dimensions.length; k < itemLen; seltxt += ' ' + Math.round(sample[i][dimensions[k++]]));
+    return seltxt;
+        };
 
   table
     .append("span")
@@ -258,7 +261,7 @@ function data_table(sample) {
 
   table
     .append("span")
-      .text((d, i) => `Option ${i}: ${seltxt}` )
+      .text((d, i) => `Option ${i}: ${SelTxt(i)}` )
 }
 
 // Adjusts rendering speed
