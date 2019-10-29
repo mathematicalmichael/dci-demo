@@ -62,8 +62,9 @@ var svg = d3.select("svg")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 // Load the data and visualization
-d3.csv("budget.csv", function(raw_data) {
+function make_viz() {
   // Convert quantitative scales to floats
+  raw_data = d3.csv.parse(reader.result);
   data = raw_data.map(function(d) {
     for (var k in d) {
       if (!_.isNaN(raw_data[0][k] - 0) && k != 'id') {
@@ -159,27 +160,6 @@ d3.csv("budget.csv", function(raw_data) {
   // Render full foreground
   brush();
 
-});
-
-// copy one canvas to another, grayscale
-function gray_copy(source, target) {
-  var pixels = source.getImageData(0,0,w,h);
-  target.putImageData(grayscale(pixels),0,0);
-}
-
-// http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
-function grayscale(pixels, args) {
-  var d = pixels.data;
-  for (var i=0; i<d.length; i+=4) {
-    var r = d[i];
-    var g = d[i+1];
-    var b = d[i+2];
-    // CIE luminance for the RGB
-    // The human eye is bad at seeing red and blue, so we de-emphasize them.
-    var v = 0.2126*r + 0.7152*g + 0.0722*b;
-    d[i] = d[i+1] = d[i+2] = v
-  }
-  return pixels;
 };
 
 function create_legend(colors,brush) {
@@ -226,7 +206,7 @@ function create_legend(colors,brush) {
 // render polylines i to i+render_speed
 function render_range(selection, i, max, opacity) {
   selection.slice(i,max).forEach(function(d) {
-    path(d, foreground, color(d.group,opacity));
+    path(d, foreground, color(colors[0],opacity));
   });
 };
 
@@ -238,7 +218,8 @@ function data_table(sample) {
     return a[col] < b[col] ? -1 : 1;
   });
 
-  var table = d3.select("#food-list")
+
+  var table = d3.select("#item-list")
     .html("")
     .selectAll(".row")
       .data(sample)
@@ -246,14 +227,28 @@ function data_table(sample) {
       .on("mouseover", highlight)
       .on("mouseout", unhighlight);
 
-  table
-    .append("span")
-      .attr("class", "color-block")
-      .style("background", function(d) { return color(d.group,0.85) })
+  function SelTxt(i) {
+    var seltxt = '';
+    for (var k = 0, itemLen = dimensions.length; k < itemLen; k++){
+        seltxt += ' | ' + dimensions[k] + ': ' + Math.round(sample[i][dimensions[k]]);
+    }
+    return seltxt;
+        };
 
   table
     .append("span")
-      .text((d, i) => `Budget ${i}`)
+      .attr("class", "color-block")
+      .style("background", function(d) { return color(colors[0],0.85) })
+
+  table
+    .append("span")
+      .text((d, i) => `Option ${formatNumberToString(i,5)}: ${SelTxt(i)}` )
+}
+
+const formatNumberToString = (num, minChars) => {
+  return num.toString().length < minChars
+   ? formatNumberToString(`0${num}`, minChars)
+   : num.toString()
 }
 
 // Adjusts rendering speed
@@ -284,7 +279,7 @@ function selection_stats(opacity, n, total) {
 function highlight(d) {
   d3.select("#foreground").style("opacity", "0.25");
   d3.selectAll(".row").style("opacity", function(p) { return (d.group == p) ? null : "0.3" });
-  path(d, highlighted, color(d.group,1));
+  path(d, highlighted, color(colors[0],1));
 }
 
 // Remove highlight
@@ -442,15 +437,15 @@ function paths(selected, ctx, count) {
 
   selection_stats(opacity, n, data.length)
 
-  shuffled_data = _.shuffle(selected);
-
-  data_table(shuffled_data.slice(0,25));
+  //shuffled_data = _.shuffle(selected);
+  shuffled_data = selected;
+  data_table(shuffled_data);
 
   ctx.clearRect(0,0,w+1,h+1);
 
   // render all lines until finished or a new brush event
   function animloop(){
-    // if (i >= n || count < brush_count) return true;
+    if (i >= n || count < brush_count) return true;
     var max = d3.min([i+render_speed, n]);
     render_range(shuffled_data, i, max, opacity);
     render_stats(max,n,render_speed);
