@@ -279,7 +279,7 @@ function selection_stats(opacity, n, total) {
 function highlight(d) {
   d3.select("#foreground").style("opacity", "0.25");
   d3.selectAll(".row").style("opacity", function(p) { return (d.group == p) ? null : "0.3" });
-  path(d, highlighted, color(d.group,1));
+  path(d, highlighted, color(colors[0],1));
 }
 
 // Remove highlight
