@@ -15,11 +15,24 @@
     
     function loadFile() {      
       var file = document.querySelector('input[type=file]').files[0];      
-      reader.addEventListener("load", parseFile, false);
+      reader.addEventListener("load", make_viz, true);
       if (file) {
         reader.readAsText(file);
       }      
     }
+
+    function read_in() {
+        // Convert quantitative scales to floats
+        var raw_data = d3.csv.parse(reader.result);
+        newdata = raw_data.map(function(d) {
+        for (var k in d) {
+            if (!_.isNaN(raw_data[0][k] - 0) && k != 'id') {
+                d[k] = parseFloat(d[k]) || 0;
+                }
+            };
+            return d;
+            });
+        }   
     
     function parseFile(){
       var doesColumnExist = false;

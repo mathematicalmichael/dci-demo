@@ -62,8 +62,9 @@ var svg = d3.select("svg")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 // Load the data and visualization
-d3.csv("budget.csv", function(raw_data) {
+function make_viz() {
   // Convert quantitative scales to floats
+  raw_data = d3.csv.parse(reader.result);
   data = raw_data.map(function(d) {
     for (var k in d) {
       if (!_.isNaN(raw_data[0][k] - 0) && k != 'id') {
@@ -159,7 +160,7 @@ d3.csv("budget.csv", function(raw_data) {
   // Render full foreground
   brush();
 
-});
+};
 
 // copy one canvas to another, grayscale
 function gray_copy(source, target) {
