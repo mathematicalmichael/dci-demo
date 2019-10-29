@@ -230,7 +230,7 @@ function data_table(sample) {
   function SelTxt(i) {
     var seltxt = '';
     for (var k = 0, itemLen = dimensions.length; k < itemLen; k++){
-        seltxt += ' | ' + dimensions[k] + ': ' + Math.round(sample[i][dimensions[k]]);
+        seltxt += ' | ' + dimensions[k] + ': ' + formatNumberToString(Math.round(sample[i][dimensions[k]]), 5);
     }
     return seltxt;
         };
@@ -247,7 +247,7 @@ function data_table(sample) {
 
 const formatNumberToString = (num, minChars) => {
   return num.toString().length < minChars
-   ? formatNumberToString(`0${num}`, minChars)
+   ? formatNumberToString(`_${num}`, minChars)
    : num.toString()
 }
 
