@@ -162,27 +162,6 @@ function make_viz() {
 
 };
 
-// copy one canvas to another, grayscale
-function gray_copy(source, target) {
-  var pixels = source.getImageData(0,0,w,h);
-  target.putImageData(grayscale(pixels),0,0);
-}
-
-// http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
-function grayscale(pixels, args) {
-  var d = pixels.data;
-  for (var i=0; i<d.length; i+=4) {
-    var r = d[i];
-    var g = d[i+1];
-    var b = d[i+2];
-    // CIE luminance for the RGB
-    // The human eye is bad at seeing red and blue, so we de-emphasize them.
-    var v = 0.2126*r + 0.7152*g + 0.0722*b;
-    d[i] = d[i+1] = d[i+2] = v
-  }
-  return pixels;
-};
-
 function create_legend(colors,brush) {
   // create legend
   var legend_data = d3.select("#legend")
@@ -250,7 +229,9 @@ function data_table(sample) {
 
   function SelTxt(i) {
     var seltxt = '';
-    for (var k = 0, itemLen = dimensions.length; k < itemLen; seltxt += ' ' + Math.round(sample[i][dimensions[k++]]));
+    for (var k = 0, itemLen = dimensions.length; k < itemLen; k++){
+        seltxt += ' | ' + dimensions[k] + ': ' + Math.round(sample[i][dimensions[k]]);
+    }
     return seltxt;
         };
 
@@ -261,7 +242,13 @@ function data_table(sample) {
 
   table
     .append("span")
-      .text((d, i) => `Option ${i}: ${SelTxt(i)}` )
+      .text((d, i) => `Option ${formatNumberToString(i,5)}: ${SelTxt(i)}` )
+}
+
+const formatNumberToString = (num, minChars) => {
+  return num.toString().length < minChars
+   ? formatNumberToString(`0${num}`, minChars)
+   : num.toString()
 }
 
 // Adjusts rendering speed
