@@ -8,6 +8,29 @@
   <body>
   <div id="header">
     <h1>Parallel Plots</h1>
+    <input type="file" onchange="loadFile()" />
+
+  <script>
+    var reader = new FileReader();  
+    
+    function loadFile() {      
+      var file = document.querySelector('input[type=file]').files[0];      
+      reader.addEventListener("load", parseFile, false);
+      if (file) {
+        reader.readAsText(file);
+      }      
+    }
+    
+    function parseFile(){
+      var doesColumnExist = false;
+      var data = d3.csv.parse(reader.result, function(d){
+        doesColumnExist = d.hasOwnProperty("someColumn");
+        return d;   
+      });
+      console.log(doesColumnExist);
+    }
+  </script>
+
     <button title="Zoom in on selected data" id="keep-data" disabled="disabled">Keep</button>
     <button title="Remove selected data" id="exclude-data" disabled="disabled">Exclude</button>
     <button title="Export data as CSV" id="export-data">Export</button>
@@ -32,12 +55,12 @@
   </div>
   <div id="wrap">
     <div class="third">
-      <p id="food-list">
+      <p id="item-list">
       </p>
     </div>
   </div>
   </body>
-  <script src="https://mbostock.github.com/d3/d3.v2.js"></script>
+  <script src="https://d3js.org/d3.v2.min.js"></script>
   <script src="http://underscorejs.org/underscore.js"></script>
   <script src="parallel.js"></script>
 </html>
