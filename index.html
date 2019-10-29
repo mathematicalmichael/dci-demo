@@ -33,14 +33,6 @@
             });
         }   
     
-    function parseFile(){
-      var doesColumnExist = false;
-      var data = d3.csv.parse(reader.result, function(d){
-        doesColumnExist = d.hasOwnProperty("someColumn");
-        return d;   
-      });
-      console.log(doesColumnExist);
-    }
   </script>
 
     <button title="Zoom in on selected data" id="keep-data" disabled="disabled">Keep</button>
