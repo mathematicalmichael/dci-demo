@@ -234,12 +234,12 @@ function render_range(selection, i, max, opacity) {
 // simple data table
 function data_table(sample) {
   // sort by first column
-  //var sample = sample.sort(function(a,b) {
-  //  var col = d3.keys(a)[0];
-  //  return a[col] < b[col] ? -1 : 1;
-  //});
+  var sample = sample.sort(function(a,b) {
+    var col = d3.keys(a)[0];
+    return a[col] < b[col] ? -1 : 1;
+  });
 
-  var sel = '';
+  var seltxt = '';
 
   var table = d3.select("#item-list")
     .html("")
@@ -249,7 +249,7 @@ function data_table(sample) {
       .on("mouseover", highlight)
       .on("mouseout", unhighlight);
 
-  for (var i = 0, itemLen = dimensions.length; i < itemLen; sel += ' ' + Math.round(sample[dimensions[i++]]));
+  for (var i = 0, itemLen = dimensions.length; i < itemLen; seltxt += ' ' + Math.round(sample[0][dimensions[i++]]));
 
   table
     .append("span")
@@ -258,7 +258,7 @@ function data_table(sample) {
 
   table
     .append("span")
-      .text((d, i) => `Option ${i}: ${sel}`)
+      .text((d, i) => `Option ${i}: ${seltxt}` )
 }
 
 // Adjusts rendering speed
