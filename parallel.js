@@ -227,17 +227,19 @@ function create_legend(colors,brush) {
 // render polylines i to i+render_speed
 function render_range(selection, i, max, opacity) {
   selection.slice(i,max).forEach(function(d) {
-    path(d, foreground, color(d.group,opacity));
+    path(d, foreground, color(colors[0],opacity));
   });
 };
 
 // simple data table
 function data_table(sample) {
   // sort by first column
-  var sample = sample.sort(function(a,b) {
-    var col = d3.keys(a)[0];
-    return a[col] < b[col] ? -1 : 1;
-  });
+  //var sample = sample.sort(function(a,b) {
+  //  var col = d3.keys(a)[0];
+  //  return a[col] < b[col] ? -1 : 1;
+  //});
+
+  var sel = '';
 
   var table = d3.select("#item-list")
     .html("")
@@ -247,14 +249,16 @@ function data_table(sample) {
       .on("mouseover", highlight)
       .on("mouseout", unhighlight);
 
-  table
-    .append("span")
-      .attr("class", "color-block")
-      .style("background", function(d) { return color(d.group,0.85) })
+  for (var i = 0, itemLen = dimensions.length; i < itemLen; sel += ' ' + Math.round(sample[dimensions[i++]]));
 
   table
     .append("span")
-      .text((d, i) => `Budget ${i}`)
+      .attr("class", "color-block")
+      .style("background", function(d) { return color(colors[0],0.85) })
+
+  table
+    .append("span")
+      .text((d, i) => `Option ${i}: ${sel}`)
 }
 
 // Adjusts rendering speed
@@ -445,7 +449,7 @@ function paths(selected, ctx, count) {
 
   shuffled_data = _.shuffle(selected);
 
-  data_table(shuffled_data.slice(0,25));
+  data_table(shuffled_data);
 
   ctx.clearRect(0,0,w+1,h+1);
 
