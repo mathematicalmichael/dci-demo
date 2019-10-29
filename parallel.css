@@ -139,7 +139,7 @@ button#keep-data:hover {
 button#exclude-data:hover {
   color: #900;
 }
-#food-list {
+#item-list {
   width: 100%;
   height: 460px;
   overflow-x: auto;

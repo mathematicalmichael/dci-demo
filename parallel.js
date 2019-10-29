@@ -238,7 +238,7 @@ function data_table(sample) {
     return a[col] < b[col] ? -1 : 1;
   });
 
-  var table = d3.select("#food-list")
+  var table = d3.select("#item-list")
     .html("")
     .selectAll(".row")
       .data(sample)
