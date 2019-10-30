@@ -43,6 +43,7 @@ foreground.globalCompositeOperation = "destination-over";
 foreground.strokeStyle = "rgba(0,100,160,0.1)";
 foreground.lineWidth = 1.7;
 foreground.fillText("Please Upload File",w/2,h/2);
+foreground.fillText("(+refresh for new)",w/2,h/2);
 
 // Highlight canvas for temporary interactions
 highlighted = document.getElementById('highlight').getContext('2d');
