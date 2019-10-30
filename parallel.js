@@ -73,6 +73,7 @@ function make_viz() {
     };
     return d;
   });
+  document.getElementById("upload-file").disabled = true;
 
   // Extract the list of numerical dimensions and create a scale for each.
   xscale.domain(dimensions = d3.keys(data[0]).filter(function(k) {
